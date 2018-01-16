@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JusDone Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListenerNG"/>
+  </listeners>
+  <test name="JusDone App Test Cases(failed)">
+    <classes>
+      <class name="com.JusDone.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyJusDoneLogoTest"/>
+          <include name="verifySignUpLogoTest"/>
+          <include name="verifyAboutUsLogoTest"/>
+          <include name="tearDown"/>
+          <include name="verifyContactUsLogoTest"/>
+          <include name="verifyLoginLogoTest"/>
+          <include name="verifySignupButtonTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.HomePageTest -->
+      <class name="com.JusDone.qa.TestCases.SignUpPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifySignUpJusDoneLogoTest"/>
+          <include name="tearDown"/>
+          <include name="verifySignUpPageLogoTest"/>
+          <include name="clickOnSignUpPageLogoTest"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.SignUpPageTest -->
+      <class name="com.JusDone.qa.TestCases.RegistrationFormPageTest">
+        <methods>
+          <include name="ValidCreateNewAcct"/>
+          <include name="tearDown"/>
+          <include name="ClickRegisterButtonTest"/>
+          <include name="verifyRegisterFormSignUpLogo"/>
+          <include name="setUp"/>
+          <include name="verifyRegisterFormJDPageLogoTest"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.RegistrationFormPageTest -->
+    </classes>
+  </test> <!-- JusDone App Test Cases(failed) -->
+</suite> <!-- Failed suite [JusDone Application Test Automation Test Suite] -->

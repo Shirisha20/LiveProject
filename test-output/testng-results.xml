@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13831" started-at="2018-01-14T19:33:23Z" finished-at="2018-01-14T19:33:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13831" started-at="2018-01-14T19:33:23Z" finished-at="2018-01-14T19:33:37Z">
+      <class name="com.JusDone.qa.TestCases.ErrorPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.ErrorPageTest@26653222]" name="setUp" is-config="true" duration-ms="7846" started-at="2018-01-14T13:33:23Z" finished-at="2018-01-14T13:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickButtons()[pri:1, instance:com.JusDone.qa.TestCases.ErrorPageTest@26653222]" name="ClickButtons" duration-ms="4059" started-at="2018-01-14T13:33:31Z" finished-at="2018-01-14T13:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickButtons -->
+        <test-method status="FAIL" signature="VerifyErrorMsgTest()[pri:2, instance:com.JusDone.qa.TestCases.ErrorPageTest@26653222]" name="VerifyErrorMsgTest" duration-ms="682" started-at="2018-01-14T13:33:35Z" finished-at="2018-01-14T13:33:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [The email has already been taken.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [The email has already been taken.] but found []
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.JusDone.qa.TestCases.ErrorPageTest.VerifyErrorMsgTest(ErrorPageTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyErrorMsgTest -->
+        <test-method status="PASS" signature="ClickJDButton()[pri:3, instance:com.JusDone.qa.TestCases.ErrorPageTest@26653222]" name="ClickJDButton" duration-ms="623" started-at="2018-01-14T13:33:36Z" finished-at="2018-01-14T13:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickJDButton -->
+        <test-method status="PASS" signature="ClickLogin()[pri:4, instance:com.JusDone.qa.TestCases.ErrorPageTest@26653222]" name="ClickLogin" duration-ms="578" started-at="2018-01-14T13:33:36Z" finished-at="2018-01-14T13:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.ErrorPageTest@26653222]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-01-14T13:33:37Z" finished-at="2018-01-14T13:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.JusDone.qa.TestCases.ErrorPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

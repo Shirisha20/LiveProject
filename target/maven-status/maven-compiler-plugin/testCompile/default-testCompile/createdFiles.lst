@@ -1,0 +1,5 @@
+com\JusDone\qa\TestCases\AcctPageTest.class
+com\JusDone\qa\TestCases\SignUpPageTest.class
+com\JusDone\qa\TestCases\ErrorPageTest.class
+com\JusDone\qa\TestCases\RegistrationFormPageTest.class
+com\JusDone\qa\TestCases\HomePageTest.class

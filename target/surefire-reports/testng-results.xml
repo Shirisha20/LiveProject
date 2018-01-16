@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JusDone Application Test Automation Test Suite" duration-ms="212275" started-at="2018-01-16T13:48:32Z" finished-at="2018-01-16T13:52:04Z">
+    <groups>
+    </groups>
+    <test name="JusDone App Test Cases" duration-ms="212275" started-at="2018-01-16T13:48:32Z" finished-at="2018-01-16T13:52:04Z">
+      <class name="com.JusDone.qa.TestCases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="11053" started-at="2018-01-16T07:48:32Z" finished-at="2018-01-16T07:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifyHomePageTitleTest" duration-ms="16" started-at="2018-01-16T07:48:43Z" finished-at="2018-01-16T07:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="296" started-at="2018-01-16T07:48:43Z" finished-at="2018-01-16T07:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10293" started-at="2018-01-16T07:48:58Z" finished-at="2018-01-16T07:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyJusDoneLogoTest()[pri:2, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifyJusDoneLogoTest" duration-ms="62" started-at="2018-01-16T07:49:08Z" finished-at="2018-01-16T07:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJusDoneLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="250" started-at="2018-01-16T07:49:08Z" finished-at="2018-01-16T07:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9920" started-at="2018-01-16T07:49:38Z" finished-at="2018-01-16T07:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpLogoTest()[pri:3, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifySignUpLogoTest" duration-ms="156" started-at="2018-01-16T07:49:48Z" finished-at="2018-01-16T07:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="250" started-at="2018-01-16T07:49:49Z" finished-at="2018-01-16T07:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10449" started-at="2018-01-16T07:50:56Z" finished-at="2018-01-16T07:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginLogoTest()[pri:4, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifyLoginLogoTest" duration-ms="145" started-at="2018-01-16T07:51:07Z" finished-at="2018-01-16T07:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="209" started-at="2018-01-16T07:51:07Z" finished-at="2018-01-16T07:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9789" started-at="2018-01-16T07:51:31Z" finished-at="2018-01-16T07:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactUsLogoTest()[pri:5, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifyContactUsLogoTest" duration-ms="139" started-at="2018-01-16T07:51:41Z" finished-at="2018-01-16T07:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="287" started-at="2018-01-16T07:51:41Z" finished-at="2018-01-16T07:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10575" started-at="2018-01-16T07:51:41Z" finished-at="2018-01-16T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAboutUsLogoTest()[pri:6, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifyAboutUsLogoTest" duration-ms="138" started-at="2018-01-16T07:51:52Z" finished-at="2018-01-16T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutUsLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="256" started-at="2018-01-16T07:51:52Z" finished-at="2018-01-16T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9647" started-at="2018-01-16T07:51:52Z" finished-at="2018-01-16T07:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignupButtonTest()[pri:7, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifySignupButtonTest" duration-ms="1978" started-at="2018-01-16T07:52:02Z" finished-at="2018-01-16T07:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="277" started-at="2018-01-16T07:52:04Z" finished-at="2018-01-16T07:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.JusDone.qa.TestCases.HomePageTest -->
+      <class name="com.JusDone.qa.TestCases.SignUpPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="setUp" is-config="true" duration-ms="17883" started-at="2018-01-16T07:49:08Z" finished-at="2018-01-16T07:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpJusDoneLogoTest()[pri:2, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="verifySignUpJusDoneLogoTest" duration-ms="78" started-at="2018-01-16T07:49:26Z" finished-at="2018-01-16T07:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpJusDoneLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="tearDown" is-config="true" duration-ms="344" started-at="2018-01-16T07:49:26Z" finished-at="2018-01-16T07:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="setUp" is-config="true" duration-ms="11457" started-at="2018-01-16T07:49:49Z" finished-at="2018-01-16T07:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpPageLogoTest()[pri:3, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="verifySignUpPageLogoTest" duration-ms="78" started-at="2018-01-16T07:50:00Z" finished-at="2018-01-16T07:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="tearDown" is-config="true" duration-ms="328" started-at="2018-01-16T07:50:00Z" finished-at="2018-01-16T07:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="setUp" is-config="true" duration-ms="11483" started-at="2018-01-16T07:51:07Z" finished-at="2018-01-16T07:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnSignUpPageLogoTest()[pri:4, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="clickOnSignUpPageLogoTest" duration-ms="47" started-at="2018-01-16T07:51:18Z" finished-at="2018-01-16T07:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignUpPageLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="tearDown" is-config="true" duration-ms="369" started-at="2018-01-16T07:51:19Z" finished-at="2018-01-16T07:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.JusDone.qa.TestCases.SignUpPageTest -->
+      <class name="com.JusDone.qa.TestCases.RegistrationFormPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="14519" started-at="2018-01-16T07:48:43Z" finished-at="2018-01-16T07:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegisterFormJDPageLogoTest()[pri:1, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="verifyRegisterFormJDPageLogoTest" duration-ms="62" started-at="2018-01-16T07:48:57Z" finished-at="2018-01-16T07:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterFormJDPageLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="281" started-at="2018-01-16T07:48:58Z" finished-at="2018-01-16T07:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="11366" started-at="2018-01-16T07:49:27Z" finished-at="2018-01-16T07:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegisterFormSignUpLogo()[pri:2, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="verifyRegisterFormSignUpLogo" duration-ms="63" started-at="2018-01-16T07:49:38Z" finished-at="2018-01-16T07:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterFormSignUpLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="330" started-at="2018-01-16T07:49:38Z" finished-at="2018-01-16T07:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="11239" started-at="2018-01-16T07:50:01Z" finished-at="2018-01-16T07:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidCreateNewAcct(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="ValidCreateNewAcct" duration-ms="1438" started-at="2018-01-16T07:50:12Z" data-provider="getJusDoneTestData" finished-at="2018-01-16T07:50:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sa123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sa123@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCreateNewAcct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="515" started-at="2018-01-16T07:50:14Z" finished-at="2018-01-16T07:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="12609" started-at="2018-01-16T07:50:14Z" finished-at="2018-01-16T07:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidCreateNewAcct(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="ValidCreateNewAcct" duration-ms="1500" started-at="2018-01-16T07:50:27Z" data-provider="getJusDoneTestData" finished-at="2018-01-16T07:50:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[s%$3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s%$3@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCreateNewAcct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="360" started-at="2018-01-16T07:50:28Z" finished-at="2018-01-16T07:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="12284" started-at="2018-01-16T07:50:29Z" finished-at="2018-01-16T07:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidCreateNewAcct(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="ValidCreateNewAcct" duration-ms="1446" started-at="2018-01-16T07:50:41Z" data-provider="getJusDoneTestData" finished-at="2018-01-16T07:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[s12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s12@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCreateNewAcct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="335" started-at="2018-01-16T07:50:42Z" finished-at="2018-01-16T07:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="11749" started-at="2018-01-16T07:50:43Z" finished-at="2018-01-16T07:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidCreateNewAcct(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="ValidCreateNewAcct" duration-ms="1220" started-at="2018-01-16T07:50:55Z" data-provider="getJusDoneTestData" finished-at="2018-01-16T07:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shirisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shirimadam21@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyTest21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyTest21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCreateNewAcct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="406" started-at="2018-01-16T07:50:56Z" finished-at="2018-01-16T07:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="11238" started-at="2018-01-16T07:51:19Z" finished-at="2018-01-16T07:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickRegisterButtonTest()[pri:4, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="ClickRegisterButtonTest" duration-ms="289" started-at="2018-01-16T07:51:30Z" finished-at="2018-01-16T07:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRegisterButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="321" started-at="2018-01-16T07:51:30Z" finished-at="2018-01-16T07:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.JusDone.qa.TestCases.RegistrationFormPageTest -->
+    </test> <!-- JusDone App Test Cases -->
+  </suite> <!-- JusDone Application Test Automation Test Suite -->
+</testng-results>
