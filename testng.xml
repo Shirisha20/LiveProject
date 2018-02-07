@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="JusDone Application Test Automation Test Suite">
 
@@ -6,12 +5,34 @@
 		<listener class-name="com.qa.ExtentReportListener.ExtentReportListenerNG" />
 	</listeners>
 
-	<test name="JusDone App Test Cases">
+	<test name="HomePageTests" >
 		<classes>
-			<class name="com.JusDone.qa.TestCases.HomePageTest"></class>
-			<class name="com.JusDone.qa.TestCases.SignUpPageTest"></class>
-			<class name="com.JusDone.qa.TestCases.RegistrationFormPageTest"></class>
-
-		</classes>
-	</test>
-</suite>
+			<class name="com.JusDone.qa.TestCases.HomePageTest"/>
+				</classes>
+				</test>
+				
+			<test name="RegisterPageTests" >
+		<classes>	
+			<class name="com.JusDone.qa.TestCases.RegisterPageTest"/>
+			</classes>
+				</test>
+				
+					<test name="LoginPageTests" >
+		<classes>	
+			<class name="com.JusDone.qa.TestCases.LoginPageTest"/>
+				</classes>
+				</test>
+				
+			<test name="DashBoardPageTests" >
+		<classes>		
+			<class name="com.JusDone.qa.TestCases.DashBoardPageTest"/>
+			</classes>
+				</test>
+				
+				<test name="TaskPageTests" >
+		<classes>				
+			<class name="com.JusDone.qa.TestCases.TaskPageTest"/>
+			</classes>
+				</test>
+		
+	</suite>

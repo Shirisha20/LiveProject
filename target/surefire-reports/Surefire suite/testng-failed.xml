@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.JusDone.qa.TestCases.DashBoardPageTest">
+        <methods>
+          <include name="verifyTeamNameLabelTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ClickCreateNewTaskLinkTest"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.DashBoardPageTest -->
+      <class name="com.JusDone.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="verifyLRememberMeTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.LoginPageTest -->
+      <class name="com.JusDone.qa.TestCases.RegisterPageTest">
+        <methods>
+          <include name="VerifyValidAcctNameMsgTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.RegisterPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

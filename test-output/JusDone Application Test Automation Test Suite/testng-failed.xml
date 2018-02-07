@@ -4,40 +4,38 @@
   <listeners>
     <listener class-name="com.qa.ExtentReportListener.ExtentReportListenerNG"/>
   </listeners>
-  <test name="JusDone App Test Cases(failed)">
+  <test name="RegisterPageTests(failed)">
     <classes>
-      <class name="com.JusDone.qa.TestCases.HomePageTest">
+      <class name="com.JusDone.qa.TestCases.RegisterPageTest">
         <methods>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="verifyJusDoneLogoTest"/>
-          <include name="verifySignUpLogoTest"/>
-          <include name="verifyAboutUsLogoTest"/>
+          <include name="VerifyValidAcctNameMsgTest" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="verifyContactUsLogoTest"/>
-          <include name="verifyLoginLogoTest"/>
-          <include name="verifySignupButtonTest"/>
+          <include name="verifyExistingUserBtnTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.JusDone.qa.TestCases.HomePageTest -->
-      <class name="com.JusDone.qa.TestCases.SignUpPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifySignUpJusDoneLogoTest"/>
-          <include name="tearDown"/>
-          <include name="verifySignUpPageLogoTest"/>
-          <include name="clickOnSignUpPageLogoTest"/>
-        </methods>
-      </class> <!-- com.JusDone.qa.TestCases.SignUpPageTest -->
-      <class name="com.JusDone.qa.TestCases.RegistrationFormPageTest">
-        <methods>
-          <include name="ValidCreateNewAcct"/>
-          <include name="tearDown"/>
-          <include name="ClickRegisterButtonTest"/>
-          <include name="verifyRegisterFormSignUpLogo"/>
-          <include name="setUp"/>
-          <include name="verifyRegisterFormJDPageLogoTest"/>
-        </methods>
-      </class> <!-- com.JusDone.qa.TestCases.RegistrationFormPageTest -->
+      </class> <!-- com.JusDone.qa.TestCases.RegisterPageTest -->
     </classes>
-  </test> <!-- JusDone App Test Cases(failed) -->
+  </test> <!-- RegisterPageTests(failed) -->
+  <test name="LoginPageTests(failed)">
+    <classes>
+      <class name="com.JusDone.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="verifyLRememberMeTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPageTests(failed) -->
+  <test name="DashBoardPageTests(failed)">
+    <classes>
+      <class name="com.JusDone.qa.TestCases.DashBoardPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ClickCreateNewTaskLinkTest"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.DashBoardPageTest -->
+    </classes>
+  </test> <!-- DashBoardPageTests(failed) -->
 </suite> <!-- Failed suite [JusDone Application Test Automation Test Suite] -->

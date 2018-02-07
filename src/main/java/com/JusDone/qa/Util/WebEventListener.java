@@ -12,6 +12,8 @@ import com.JusDone.qa.Base.TestBase;
 
 
 public class WebEventListener extends TestBase implements WebDriverEventListener {
+	
+	TestUtil testUtil;
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
 		System.out.println("Before navigating to: '" + url + "'");
@@ -53,10 +55,10 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		System.out.println("Navigated forward to next page");
 	}
 
-	public void onException(Throwable error, WebDriver driver) {
+	public  void onException(Throwable error, WebDriver driver) {
 		System.out.println("Exception occured: " + error);
 		try {
-			TestUtil.takeScreenshotAtEndOfTest();
+			testUtil.takeScreenshotAtEndOfTest();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -24,9 +24,9 @@ import com.JusDone.qa.Base.TestBase;
 
 public class TestUtil extends TestBase {
 	
-	public static long PAGE_LOAD_TIMEOUT = 20;
+	public static long PAGE_LOAD_TIMEOUT = 40;
 	public static long IMPLICIT_WAIT = 20;
-	public static String TESTDATA_SHEET_PATH = "C:\\Selenium Projects\\JusDone_App\\src\\main\\java\\com\\JusDone\\qa\\TestData\\JusDoneTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "C:\\Selenium Projects\\JusDone_App\\src\\main\\java\\com\\JusDone\\qa\\TestData\\JDTestData.xlsx";
 	
 	 public static Workbook book;
 	public static Sheet sheet;
@@ -59,7 +59,7 @@ public class TestUtil extends TestBase {
 		return data;
 	}
 	
-	public static void takeScreenshotAtEndOfTest() throws IOException {
+	public  void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
 		

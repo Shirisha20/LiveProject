@@ -1,309 +1,942 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+<testng-results skipped="0" failed="4" ignored="0" total="47" passed="43">
   <reporter-output>
   </reporter-output>
-  <suite name="JusDone Application Test Automation Test Suite" duration-ms="212275" started-at="2018-01-16T13:48:32Z" finished-at="2018-01-16T13:52:04Z">
+  <suite name="Surefire suite" duration-ms="757645" started-at="2018-02-06T22:42:40Z" finished-at="2018-02-06T22:55:17Z">
     <groups>
     </groups>
-    <test name="JusDone App Test Cases" duration-ms="212275" started-at="2018-01-16T13:48:32Z" finished-at="2018-01-16T13:52:04Z">
-      <class name="com.JusDone.qa.TestCases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="11053" started-at="2018-01-16T07:48:32Z" finished-at="2018-01-16T07:48:43Z">
+    <test name="Surefire test" duration-ms="757645" started-at="2018-02-06T22:42:40Z" finished-at="2018-02-06T22:55:17Z">
+      <class name="com.JusDone.qa.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="setUp" is-config="true" duration-ms="11227" started-at="2018-02-06T16:43:08Z" finished-at="2018-02-06T16:43:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifyHomePageTitleTest" duration-ms="16" started-at="2018-01-16T07:48:43Z" finished-at="2018-01-16T07:48:43Z">
+        <test-method status="PASS" signature="verifyLoginNameTest()[pri:1, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="verifyLoginNameTest" duration-ms="54" started-at="2018-02-06T16:43:19Z" finished-at="2018-02-06T16:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="tearDown" is-config="true" duration-ms="644" started-at="2018-02-06T16:43:19Z" finished-at="2018-02-06T16:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="setUp" is-config="true" duration-ms="11425" started-at="2018-02-06T16:44:22Z" finished-at="2018-02-06T16:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLForgotPwdTest()[pri:2, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="verifyLForgotPwdTest" duration-ms="41" started-at="2018-02-06T16:44:33Z" finished-at="2018-02-06T16:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLForgotPwdTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="tearDown" is-config="true" duration-ms="604" started-at="2018-02-06T16:44:33Z" finished-at="2018-02-06T16:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="setUp" is-config="true" duration-ms="11455" started-at="2018-02-06T16:45:34Z" finished-at="2018-02-06T16:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginBtnTest()[pri:3, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="verifyLoginBtnTest" duration-ms="45" started-at="2018-02-06T16:45:46Z" finished-at="2018-02-06T16:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="tearDown" is-config="true" duration-ms="603" started-at="2018-02-06T16:45:46Z" finished-at="2018-02-06T16:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="setUp" is-config="true" duration-ms="11752" started-at="2018-02-06T16:47:07Z" finished-at="2018-02-06T16:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyLRememberMeTest()[pri:4, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="verifyLRememberMeTest" duration-ms="40" started-at="2018-02-06T16:47:19Z" finished-at="2018-02-06T16:47:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.JusDone.qa.TestCases.LoginPageTest.verifyLRememberMeTest(LoginPageTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLRememberMeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="tearDown" is-config="true" duration-ms="585" started-at="2018-02-06T16:47:19Z" finished-at="2018-02-06T16:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="setUp" is-config="true" duration-ms="11236" started-at="2018-02-06T16:48:23Z" finished-at="2018-02-06T16:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLCreateAcctBtnTest()[pri:5, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="verifyLCreateAcctBtnTest" duration-ms="35" started-at="2018-02-06T16:48:34Z" finished-at="2018-02-06T16:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLCreateAcctBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="tearDown" is-config="true" duration-ms="596" started-at="2018-02-06T16:48:34Z" finished-at="2018-02-06T16:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="setUp" is-config="true" duration-ms="11370" started-at="2018-02-06T16:49:10Z" finished-at="2018-02-06T16:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidLoginTest()[pri:6, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="ValidLoginTest" duration-ms="6748" started-at="2018-02-06T16:49:21Z" finished-at="2018-02-06T16:49:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="tearDown" is-config="true" duration-ms="584" started-at="2018-02-06T16:49:28Z" finished-at="2018-02-06T16:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="setUp" is-config="true" duration-ms="11424" started-at="2018-02-06T16:50:05Z" finished-at="2018-02-06T16:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InvalidLoginTest()[pri:7, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="InvalidLoginTest" duration-ms="1539" started-at="2018-02-06T16:50:16Z" finished-at="2018-02-06T16:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="tearDown" is-config="true" duration-ms="609" started-at="2018-02-06T16:50:18Z" finished-at="2018-02-06T16:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="setUp" is-config="true" duration-ms="12264" started-at="2018-02-06T16:50:56Z" finished-at="2018-02-06T16:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="BlankInputLoginTest()[pri:8, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="BlankInputLoginTest" duration-ms="561" started-at="2018-02-06T16:51:08Z" finished-at="2018-02-06T16:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankInputLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@548a9f61]" name="tearDown" is-config="true" duration-ms="611" started-at="2018-02-06T16:51:09Z" finished-at="2018-02-06T16:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.JusDone.qa.TestCases.LoginPageTest -->
+      <class name="com.JusDone.qa.TestCases.TaskPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="setUp" is-config="true" duration-ms="24058" started-at="2018-02-06T16:43:35Z" finished-at="2018-02-06T16:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewTaskLinkTest()[pri:1, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="verifyCreateNewTaskLinkTest" duration-ms="3046" started-at="2018-02-06T16:43:59Z" finished-at="2018-02-06T16:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewTaskLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="tearDown" is-config="true" duration-ms="617" started-at="2018-02-06T16:44:02Z" finished-at="2018-02-06T16:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="setUp" is-config="true" duration-ms="24205" started-at="2018-02-06T16:44:48Z" finished-at="2018-02-06T16:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMembersLinkTest()[pri:2, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="verifyMembersLinkTest" duration-ms="27" started-at="2018-02-06T16:45:13Z" finished-at="2018-02-06T16:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMembersLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="tearDown" is-config="true" duration-ms="616" started-at="2018-02-06T16:45:13Z" finished-at="2018-02-06T16:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="setUp" is-config="true" duration-ms="23762" started-at="2018-02-06T16:46:23Z" finished-at="2018-02-06T16:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySettingsLinkTest()[pri:3, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="verifySettingsLinkTest" duration-ms="43" started-at="2018-02-06T16:46:47Z" finished-at="2018-02-06T16:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySettingsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="tearDown" is-config="true" duration-ms="602" started-at="2018-02-06T16:46:47Z" finished-at="2018-02-06T16:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="setUp" is-config="true" duration-ms="23840" started-at="2018-02-06T16:47:36Z" finished-at="2018-02-06T16:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickCreateNewTaskLinkTest()[pri:4, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="ClickCreateNewTaskLinkTest" duration-ms="3863" started-at="2018-02-06T16:48:00Z" finished-at="2018-02-06T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCreateNewTaskLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7c16905e]" name="tearDown" is-config="true" duration-ms="613" started-at="2018-02-06T16:48:04Z" finished-at="2018-02-06T16:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.JusDone.qa.TestCases.TaskPageTest -->
+      <class name="com.JusDone.qa.TestCases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="setUp" is-config="true" duration-ms="5889" started-at="2018-02-06T16:43:20Z" finished-at="2018-02-06T16:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="verifyHomePageTitleTest" duration-ms="17" started-at="2018-02-06T16:43:26Z" finished-at="2018-02-06T16:43:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="296" started-at="2018-01-16T07:48:43Z" finished-at="2018-01-16T07:48:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="585" started-at="2018-02-06T16:43:26Z" finished-at="2018-02-06T16:43:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10293" started-at="2018-01-16T07:48:58Z" finished-at="2018-01-16T07:49:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="setUp" is-config="true" duration-ms="5783" started-at="2018-02-06T16:44:34Z" finished-at="2018-02-06T16:44:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyJusDoneLogoTest()[pri:2, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifyJusDoneLogoTest" duration-ms="62" started-at="2018-01-16T07:49:08Z" finished-at="2018-01-16T07:49:08Z">
+        <test-method status="PASS" signature="verifyJusDoneLogoTest()[pri:2, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="verifyJusDoneLogoTest" duration-ms="54" started-at="2018-02-06T16:44:39Z" finished-at="2018-02-06T16:44:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyJusDoneLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="250" started-at="2018-01-16T07:49:08Z" finished-at="2018-01-16T07:49:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="606" started-at="2018-02-06T16:44:39Z" finished-at="2018-02-06T16:44:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9920" started-at="2018-01-16T07:49:38Z" finished-at="2018-01-16T07:49:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="setUp" is-config="true" duration-ms="5815" started-at="2018-02-06T16:45:46Z" finished-at="2018-02-06T16:45:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignUpLogoTest()[pri:3, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifySignUpLogoTest" duration-ms="156" started-at="2018-01-16T07:49:48Z" finished-at="2018-01-16T07:49:49Z">
+        <test-method status="PASS" signature="verifySignUpLogoTest()[pri:3, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="verifySignUpLogoTest" duration-ms="55" started-at="2018-02-06T16:45:52Z" finished-at="2018-02-06T16:45:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="250" started-at="2018-01-16T07:49:49Z" finished-at="2018-01-16T07:49:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="591" started-at="2018-02-06T16:45:52Z" finished-at="2018-02-06T16:45:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10449" started-at="2018-01-16T07:50:56Z" finished-at="2018-01-16T07:51:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="setUp" is-config="true" duration-ms="5835" started-at="2018-02-06T16:47:20Z" finished-at="2018-02-06T16:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginLogoTest()[pri:4, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifyLoginLogoTest" duration-ms="145" started-at="2018-01-16T07:51:07Z" finished-at="2018-01-16T07:51:07Z">
+        <test-method status="PASS" signature="verifyLoginLogoTest()[pri:4, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="verifyLoginLogoTest" duration-ms="47" started-at="2018-02-06T16:47:26Z" finished-at="2018-02-06T16:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="209" started-at="2018-01-16T07:51:07Z" finished-at="2018-01-16T07:51:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="582" started-at="2018-02-06T16:47:26Z" finished-at="2018-02-06T16:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9789" started-at="2018-01-16T07:51:31Z" finished-at="2018-01-16T07:51:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="setUp" is-config="true" duration-ms="5830" started-at="2018-02-06T16:48:35Z" finished-at="2018-02-06T16:48:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactUsLogoTest()[pri:5, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifyContactUsLogoTest" duration-ms="139" started-at="2018-01-16T07:51:41Z" finished-at="2018-01-16T07:51:41Z">
+        <test-method status="PASS" signature="verifyContactUsLogoTest()[pri:5, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="verifyContactUsLogoTest" duration-ms="44" started-at="2018-02-06T16:48:41Z" finished-at="2018-02-06T16:48:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactUsLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="287" started-at="2018-01-16T07:51:41Z" finished-at="2018-01-16T07:51:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="589" started-at="2018-02-06T16:48:41Z" finished-at="2018-02-06T16:48:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="10575" started-at="2018-01-16T07:51:41Z" finished-at="2018-01-16T07:51:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="setUp" is-config="true" duration-ms="6004" started-at="2018-02-06T16:49:29Z" finished-at="2018-02-06T16:49:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAboutUsLogoTest()[pri:6, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifyAboutUsLogoTest" duration-ms="138" started-at="2018-01-16T07:51:52Z" finished-at="2018-01-16T07:51:52Z">
+        <test-method status="PASS" signature="verifyAboutUsLogoTest()[pri:6, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="verifyAboutUsLogoTest" duration-ms="43" started-at="2018-02-06T16:49:35Z" finished-at="2018-02-06T16:49:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAboutUsLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="256" started-at="2018-01-16T07:51:52Z" finished-at="2018-01-16T07:51:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="603" started-at="2018-02-06T16:49:35Z" finished-at="2018-02-06T16:49:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="9647" started-at="2018-01-16T07:51:52Z" finished-at="2018-01-16T07:52:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="setUp" is-config="true" duration-ms="5957" started-at="2018-02-06T16:50:28Z" finished-at="2018-02-06T16:50:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignupButtonTest()[pri:7, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="verifySignupButtonTest" duration-ms="1978" started-at="2018-01-16T07:52:02Z" finished-at="2018-01-16T07:52:04Z">
+        <test-method status="PASS" signature="ClickOnSignupLogoTest()[pri:7, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="ClickOnSignupLogoTest" duration-ms="2338" started-at="2018-02-06T16:50:34Z" finished-at="2018-02-06T16:50:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignupButtonTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="277" started-at="2018-01-16T07:52:04Z" finished-at="2018-01-16T07:52:04Z">
+        </test-method> <!-- ClickOnSignupLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="628" started-at="2018-02-06T16:50:37Z" finished-at="2018-02-06T16:50:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="setUp" is-config="true" duration-ms="6776" started-at="2018-02-06T16:51:18Z" finished-at="2018-02-06T16:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickLoginBtnTest()[pri:8, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="ClickLoginBtnTest" duration-ms="6286" started-at="2018-02-06T16:51:25Z" finished-at="2018-02-06T16:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLoginBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="625" started-at="2018-02-06T16:51:31Z" finished-at="2018-02-06T16:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.JusDone.qa.TestCases.HomePageTest -->
-      <class name="com.JusDone.qa.TestCases.SignUpPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="setUp" is-config="true" duration-ms="17883" started-at="2018-01-16T07:49:08Z" finished-at="2018-01-16T07:49:26Z">
+      <class name="com.JusDone.qa.TestCases.DashBoardPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="21674" started-at="2018-02-06T16:42:40Z" finished-at="2018-02-06T16:43:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignUpJusDoneLogoTest()[pri:2, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="verifySignUpJusDoneLogoTest" duration-ms="78" started-at="2018-01-16T07:49:26Z" finished-at="2018-01-16T07:49:26Z">
+        <test-method status="PASS" signature="verifyJusDoneImageTest()[pri:1, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyJusDoneImageTest" duration-ms="6056" started-at="2018-02-06T16:43:01Z" finished-at="2018-02-06T16:43:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignUpJusDoneLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="tearDown" is-config="true" duration-ms="344" started-at="2018-01-16T07:49:26Z" finished-at="2018-01-16T07:49:27Z">
+        </test-method> <!-- verifyJusDoneImageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="647" started-at="2018-02-06T16:43:08Z" finished-at="2018-02-06T16:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="setUp" is-config="true" duration-ms="11457" started-at="2018-01-16T07:49:49Z" finished-at="2018-01-16T07:50:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18080" started-at="2018-02-06T16:44:03Z" finished-at="2018-02-06T16:44:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignUpPageLogoTest()[pri:3, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="verifySignUpPageLogoTest" duration-ms="78" started-at="2018-01-16T07:50:00Z" finished-at="2018-01-16T07:50:00Z">
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyUserNameTest" duration-ms="42" started-at="2018-02-06T16:44:21Z" finished-at="2018-02-06T16:44:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignUpPageLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="tearDown" is-config="true" duration-ms="328" started-at="2018-01-16T07:50:00Z" finished-at="2018-01-16T07:50:01Z">
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="608" started-at="2018-02-06T16:44:21Z" finished-at="2018-02-06T16:44:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="setUp" is-config="true" duration-ms="11483" started-at="2018-01-16T07:51:07Z" finished-at="2018-01-16T07:51:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="20195" started-at="2018-02-06T16:45:13Z" finished-at="2018-02-06T16:45:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickOnSignUpPageLogoTest()[pri:4, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="clickOnSignUpPageLogoTest" duration-ms="47" started-at="2018-01-16T07:51:18Z" finished-at="2018-01-16T07:51:19Z">
+        <test-method status="PASS" signature="verifyTeamLabelTest()[pri:3, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyTeamLabelTest" duration-ms="31" started-at="2018-02-06T16:45:34Z" finished-at="2018-02-06T16:45:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnSignUpPageLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.SignUpPageTest@64616ca2]" name="tearDown" is-config="true" duration-ms="369" started-at="2018-01-16T07:51:19Z" finished-at="2018-01-16T07:51:19Z">
+        </test-method> <!-- verifyTeamLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="616" started-at="2018-02-06T16:45:34Z" finished-at="2018-02-06T16:45:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.JusDone.qa.TestCases.SignUpPageTest -->
-      <class name="com.JusDone.qa.TestCases.RegistrationFormPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="14519" started-at="2018-01-16T07:48:43Z" finished-at="2018-01-16T07:48:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="19120" started-at="2018-02-06T16:46:48Z" finished-at="2018-02-06T16:47:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyRegisterFormJDPageLogoTest()[pri:1, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="verifyRegisterFormJDPageLogoTest" duration-ms="62" started-at="2018-01-16T07:48:57Z" finished-at="2018-01-16T07:48:58Z">
+        <test-method status="PASS" signature="verifySearchBoxTest()[pri:4, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifySearchBoxTest" duration-ms="31" started-at="2018-02-06T16:47:07Z" finished-at="2018-02-06T16:47:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterFormJDPageLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="281" started-at="2018-01-16T07:48:58Z" finished-at="2018-01-16T07:48:58Z">
+        </test-method> <!-- verifySearchBoxTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="616" started-at="2018-02-06T16:47:07Z" finished-at="2018-02-06T16:47:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="11366" started-at="2018-01-16T07:49:27Z" finished-at="2018-01-16T07:49:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18037" started-at="2018-02-06T16:48:04Z" finished-at="2018-02-06T16:48:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyRegisterFormSignUpLogo()[pri:2, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="verifyRegisterFormSignUpLogo" duration-ms="63" started-at="2018-01-16T07:49:38Z" finished-at="2018-01-16T07:49:38Z">
+        <test-method status="FAIL" signature="verifyTeamNameLabelTest()[pri:5, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyTeamNameLabelTest" duration-ms="53" started-at="2018-02-06T16:48:22Z" finished-at="2018-02-06T16:48:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.JusDone.qa.TestCases.DashBoardPageTest.verifyTeamNameLabelTest(DashBoardPageTest.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterFormSignUpLogo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="330" started-at="2018-01-16T07:49:38Z" finished-at="2018-01-16T07:49:38Z">
+        </test-method> <!-- verifyTeamNameLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="613" started-at="2018-02-06T16:48:22Z" finished-at="2018-02-06T16:48:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="11239" started-at="2018-01-16T07:50:01Z" finished-at="2018-01-16T07:50:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18107" started-at="2018-02-06T16:48:51Z" finished-at="2018-02-06T16:49:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidCreateNewAcct(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="ValidCreateNewAcct" duration-ms="1438" started-at="2018-01-16T07:50:12Z" data-provider="getJusDoneTestData" finished-at="2018-01-16T07:50:14Z">
+        <test-method status="PASS" signature="verifyDashBoardBtnTest()[pri:6, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyDashBoardBtnTest" duration-ms="31" started-at="2018-02-06T16:49:09Z" finished-at="2018-02-06T16:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoardBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="613" started-at="2018-02-06T16:49:09Z" finished-at="2018-02-06T16:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18183" started-at="2018-02-06T16:49:46Z" finished-at="2018-02-06T16:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTeamsBtnTest()[pri:7, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyTeamsBtnTest" duration-ms="31" started-at="2018-02-06T16:50:04Z" finished-at="2018-02-06T16:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeamsBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="600" started-at="2018-02-06T16:50:04Z" finished-at="2018-02-06T16:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18014" started-at="2018-02-06T16:50:37Z" finished-at="2018-02-06T16:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTaskBtnTest()[pri:8, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyTaskBtnTest" duration-ms="28" started-at="2018-02-06T16:50:55Z" finished-at="2018-02-06T16:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="588" started-at="2018-02-06T16:50:55Z" finished-at="2018-02-06T16:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18283" started-at="2018-02-06T16:51:32Z" finished-at="2018-02-06T16:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyInvitesBtnTest()[pri:9, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyInvitesBtnTest" duration-ms="31" started-at="2018-02-06T16:51:50Z" finished-at="2018-02-06T16:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvitesBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="597" started-at="2018-02-06T16:51:50Z" finished-at="2018-02-06T16:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="17725" started-at="2018-02-06T16:51:51Z" finished-at="2018-02-06T16:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySettingsBtnTest()[pri:10, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifySettingsBtnTest" duration-ms="25" started-at="2018-02-06T16:52:09Z" finished-at="2018-02-06T16:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySettingsBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="600" started-at="2018-02-06T16:52:09Z" finished-at="2018-02-06T16:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18349" started-at="2018-02-06T16:52:09Z" finished-at="2018-02-06T16:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMenuBarTest()[pri:11, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyMenuBarTest" duration-ms="19" started-at="2018-02-06T16:52:28Z" finished-at="2018-02-06T16:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuBarTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="609" started-at="2018-02-06T16:52:28Z" finished-at="2018-02-06T16:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="17900" started-at="2018-02-06T16:52:28Z" finished-at="2018-02-06T16:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewTeamBtnTest()[pri:12, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyCreateNewTeamBtnTest" duration-ms="17" started-at="2018-02-06T16:52:46Z" finished-at="2018-02-06T16:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewTeamBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="615" started-at="2018-02-06T16:52:46Z" finished-at="2018-02-06T16:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18782" started-at="2018-02-06T16:52:47Z" finished-at="2018-02-06T16:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBellBtnTest()[pri:13, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyBellBtnTest" duration-ms="32" started-at="2018-02-06T16:53:06Z" finished-at="2018-02-06T16:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBellBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="614" started-at="2018-02-06T16:53:06Z" finished-at="2018-02-06T16:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18238" started-at="2018-02-06T16:53:06Z" finished-at="2018-02-06T16:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogOutBtnTest()[pri:14, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyLogOutBtnTest" duration-ms="13" started-at="2018-02-06T16:53:24Z" finished-at="2018-02-06T16:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOutBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="615" started-at="2018-02-06T16:53:24Z" finished-at="2018-02-06T16:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18281" started-at="2018-02-06T16:53:25Z" finished-at="2018-02-06T16:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewTaskLinkTest()[pri:15, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="verifyCreateNewTaskLinkTest" duration-ms="16" started-at="2018-02-06T16:53:43Z" finished-at="2018-02-06T16:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewTaskLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="615" started-at="2018-02-06T16:53:43Z" finished-at="2018-02-06T16:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18238" started-at="2018-02-06T16:53:44Z" finished-at="2018-02-06T16:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CreateTeamBtnTest()[pri:16, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="CreateTeamBtnTest" duration-ms="7552" started-at="2018-02-06T16:54:02Z" finished-at="2018-02-06T16:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTeamBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="629" started-at="2018-02-06T16:54:10Z" finished-at="2018-02-06T16:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="19122" started-at="2018-02-06T16:54:10Z" finished-at="2018-02-06T16:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="ClickCreateNewTaskLinkTest()[pri:17, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="ClickCreateNewTaskLinkTest" duration-ms="27" started-at="2018-02-06T16:54:29Z" finished-at="2018-02-06T16:54:30Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\venka\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 27c49ceb9e8ae98f6fc6cb172c44e9e4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\venka\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 27c49ceb9e8ae98f6fc6cb172c44e9e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.JusDone.qa.Pages.DashBoardPage.ClickCreateNewTaskLink(DashBoardPage.java:170)
+	at com.JusDone.qa.TestCases.DashBoardPageTest.ClickCreateNewTaskLinkTest(DashBoardPageTest.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCreateNewTaskLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="600" started-at="2018-02-06T16:54:30Z" finished-at="2018-02-06T16:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="18544" started-at="2018-02-06T16:54:30Z" finished-at="2018-02-06T16:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickTaskBtnTest()[pri:18, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="ClickTaskBtnTest" duration-ms="5915" started-at="2018-02-06T16:54:49Z" finished-at="2018-02-06T16:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickTaskBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="595" started-at="2018-02-06T16:54:55Z" finished-at="2018-02-06T16:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="setUp" is-config="true" duration-ms="20648" started-at="2018-02-06T16:54:55Z" finished-at="2018-02-06T16:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickLogOutBtn()[pri:19, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="ClickLogOutBtn" duration-ms="1020" started-at="2018-02-06T16:55:16Z" finished-at="2018-02-06T16:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLogOutBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="609" started-at="2018-02-06T16:55:17Z" finished-at="2018-02-06T16:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.JusDone.qa.TestCases.DashBoardPageTest -->
+      <class name="com.JusDone.qa.TestCases.RegisterPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="setUp" is-config="true" duration-ms="7772" started-at="2018-02-06T16:43:27Z" finished-at="2018-02-06T16:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegisterNameTest()[pri:1, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="verifyRegisterNameTest" duration-ms="69" started-at="2018-02-06T16:43:34Z" finished-at="2018-02-06T16:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="598" started-at="2018-02-06T16:43:34Z" finished-at="2018-02-06T16:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="setUp" is-config="true" duration-ms="7838" started-at="2018-02-06T16:44:40Z" finished-at="2018-02-06T16:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyExistingUserBtnTest()[pri:2, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="verifyExistingUserBtnTest" duration-ms="39" started-at="2018-02-06T16:44:48Z" finished-at="2018-02-06T16:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExistingUserBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="590" started-at="2018-02-06T16:44:48Z" finished-at="2018-02-06T16:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="setUp" is-config="true" duration-ms="7783" started-at="2018-02-06T16:45:53Z" finished-at="2018-02-06T16:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="VerifyValidAcctNameMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="VerifyValidAcctNameMsgTest" duration-ms="21740" started-at="2018-02-06T16:46:01Z" data-provider="VerifyValidAcctNameMsg" finished-at="2018-02-06T16:46:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sa123]]>
+                <![CDATA[sv7]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[sa123@gmail.com]]>
+                <![CDATA[siri@gmail.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[Test123]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div[1]/div/nav/div/p[1]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\venka\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 45560e61c641417dd174dfd9b0352340
+*** Element info: {Using=xpath, value=/html/body/div/div[1]/div/nav/div/p[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div[1]/div/nav/div/p[1]"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\venka\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 45560e61c641417dd174dfd9b0352340
+*** Element info: {Using=xpath, value=/html/body/div/div[1]/div/nav/div/p[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+	at com.google.common.collect.Iterators$6.transform(Iterators.java:820)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Iterators.addAll(Iterators.java:373)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:165)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:150)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:534)
+	at com.JusDone.qa.Pages.RegisterPage.VerifyValidAcctNameMsg(RegisterPage.java:104)
+	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyValidAcctNameMsgTest(RegisterPageTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidAcctNameMsgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="601" started-at="2018-02-06T16:46:23Z" finished-at="2018-02-06T16:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="setUp" is-config="true" duration-ms="7445" started-at="2018-02-06T16:47:26Z" finished-at="2018-02-06T16:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyExistingAcctErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="VerifyExistingAcctErrorMsgTest" duration-ms="1665" started-at="2018-02-06T16:47:34Z" data-provider="VerifyExistingAcctErrorMsg" finished-at="2018-02-06T16:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ab12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ab12@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidCreateNewAcct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="515" started-at="2018-01-16T07:50:14Z" finished-at="2018-01-16T07:50:14Z">
+        </test-method> <!-- VerifyExistingAcctErrorMsgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="643" started-at="2018-02-06T16:47:35Z" finished-at="2018-02-06T16:47:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="12609" started-at="2018-01-16T07:50:14Z" finished-at="2018-01-16T07:50:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="setUp" is-config="true" duration-ms="7392" started-at="2018-02-06T16:48:41Z" finished-at="2018-02-06T16:48:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidCreateNewAcct(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="ValidCreateNewAcct" duration-ms="1500" started-at="2018-01-16T07:50:27Z" data-provider="getJusDoneTestData" finished-at="2018-01-16T07:50:28Z">
+        <test-method status="PASS" signature="VerifyInvalidEmailErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="VerifyInvalidEmailErrorMsgTest" duration-ms="1826" started-at="2018-02-06T16:48:49Z" data-provider="VerifyInvalidEmailErrorMsg" finished-at="2018-02-06T16:48:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[s%$3]]>
+                <![CDATA[sr123]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[s%$3@gmail.com]]>
+                <![CDATA[sr123@123]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[Test123]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[Test123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidCreateNewAcct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="360" started-at="2018-01-16T07:50:28Z" finished-at="2018-01-16T07:50:29Z">
+        </test-method> <!-- VerifyInvalidEmailErrorMsgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="612" started-at="2018-02-06T16:48:51Z" finished-at="2018-02-06T16:48:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="12284" started-at="2018-01-16T07:50:29Z" finished-at="2018-01-16T07:50:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="setUp" is-config="true" duration-ms="8072" started-at="2018-02-06T16:49:35Z" finished-at="2018-02-06T16:49:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidCreateNewAcct(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="ValidCreateNewAcct" duration-ms="1446" started-at="2018-01-16T07:50:41Z" data-provider="getJusDoneTestData" finished-at="2018-01-16T07:50:42Z">
+        <test-method status="PASS" signature="VerifyPwdMatchErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="VerifyPwdMatchErrorMsgTest" duration-ms="1724" started-at="2018-02-06T16:49:44Z" data-provider="VerifyPwdMatchErrorMsg" finished-at="2018-02-06T16:49:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[s12]]>
+                <![CDATA[sri123]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[s12@gmail.com]]>
+                <![CDATA[sri123@gmail.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[Test123]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[test12]]>
+                <![CDATA[Tes123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidCreateNewAcct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="335" started-at="2018-01-16T07:50:42Z" finished-at="2018-01-16T07:50:43Z">
+        </test-method> <!-- VerifyPwdMatchErrorMsgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="623" started-at="2018-02-06T16:49:45Z" finished-at="2018-02-06T16:49:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="11749" started-at="2018-01-16T07:50:43Z" finished-at="2018-01-16T07:50:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="setUp" is-config="true" duration-ms="8387" started-at="2018-02-06T16:50:18Z" finished-at="2018-02-06T16:50:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidCreateNewAcct(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="ValidCreateNewAcct" duration-ms="1220" started-at="2018-01-16T07:50:55Z" data-provider="getJusDoneTestData" finished-at="2018-01-16T07:50:56Z">
+        <test-method status="PASS" signature="VerifyBlankErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="VerifyBlankErrorMsgTest" duration-ms="941" started-at="2018-02-06T16:50:27Z" data-provider="VerifyBlankErrorMsg" finished-at="2018-02-06T16:50:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Shirisha]]>
+                <![CDATA[svsv]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[shirimadam21@gmail.com]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[MyTest21]]>
+                <![CDATA[Test123]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[MyTest21]]>
+                <![CDATA[Test123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidCreateNewAcct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="406" started-at="2018-01-16T07:50:56Z" finished-at="2018-01-16T07:50:56Z">
+        </test-method> <!-- VerifyBlankErrorMsgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="639" started-at="2018-02-06T16:50:28Z" finished-at="2018-02-06T16:50:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="setUp" is-config="true" duration-ms="11238" started-at="2018-01-16T07:51:19Z" finished-at="2018-01-16T07:51:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="setUp" is-config="true" duration-ms="7918" started-at="2018-02-06T16:51:09Z" finished-at="2018-02-06T16:51:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ClickRegisterButtonTest()[pri:4, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="ClickRegisterButtonTest" duration-ms="289" started-at="2018-01-16T07:51:30Z" finished-at="2018-01-16T07:51:30Z">
+        <test-method status="PASS" signature="ClickSignInButtonTest()[pri:8, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="ClickSignInButtonTest" duration-ms="538" started-at="2018-02-06T16:51:17Z" finished-at="2018-02-06T16:51:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickRegisterButtonTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegistrationFormPageTest@13fee20c]" name="tearDown" is-config="true" duration-ms="321" started-at="2018-01-16T07:51:30Z" finished-at="2018-01-16T07:51:31Z">
+        </test-method> <!-- ClickSignInButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1753acfe]" name="tearDown" is-config="true" duration-ms="614" started-at="2018-02-06T16:51:18Z" finished-at="2018-02-06T16:51:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.JusDone.qa.TestCases.RegistrationFormPageTest -->
-    </test> <!-- JusDone App Test Cases -->
-  </suite> <!-- JusDone Application Test Automation Test Suite -->
+      </class> <!-- com.JusDone.qa.TestCases.RegisterPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

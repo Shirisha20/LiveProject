@@ -1,9 +1,8 @@
 package com.JusDone.qa.TestCases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import java.io.IOException;
+
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -11,85 +10,122 @@ import org.testng.annotations.Test;
 
 import com.JusDone.qa.Base.TestBase;
 import com.JusDone.qa.Pages.HomePage;
-import com.JusDone.qa.Pages.SignUpPage;
+import com.JusDone.qa.Pages.LoginPage;
+import com.JusDone.qa.Pages.RegisterPage;
 import com.JusDone.qa.Util.TestUtil;
 
 public class HomePageTest extends TestBase {
-	
+
 	HomePage homePage;
-	SignUpPage signUpPage;
-	TestUtil testUtil;
-	
+	LoginPage loginPage;
+	RegisterPage registrationPage;
+	static TestUtil testUtil;
+	Logger log = Logger.getLogger(HomePageTest.class);
+
 	public HomePageTest() {
-	super();
+		super();
 	}
-	
-	//test cases should be separated -- independent with each other
-		//before each test case -- launch the browser and login
-		//@test -- execute test case
-		//after each test case -- close the browser
-		
-@BeforeMethod
-		public void setUp() {
-			initialization();
-			testUtil = new TestUtil();
-		homePage= new HomePage();
-		signUpPage = new SignUpPage();
-			
-				}
-		
-@Test(priority=1)
-public void verifyHomePageTitleTest(){
-	String homePageTitle = homePage.verifyHomePageTitle();
-	Assert.assertEquals(homePageTitle, "Laravel","Home page title not matched");
-}
 
-@Test(priority=2)
-public void verifyJusDoneLogoTest(){
-	Assert.assertTrue(homePage.verifyJusDoneLogo());
-}
+	// test cases should be separated -- independent with each other
+	// before each test case -- launch the browser and login
+	// @test -- execute test case
+	// after each test case -- close the browser
 
-@Test(priority=3)
-public void verifySignUpLogoTest(){
-	/*WebDriverWait wait = new WebDriverWait(driver, 10);
-	WebElement element = wait.until(
-	        ExpectedConditions.visibilityOfElementLocated(By.xpath("//label[@for='c3']")));*/
-	testUtil.ExplicitWait();
-	Assert.assertTrue(homePage.verifySignUpLogo());
-}
+	@BeforeMethod
+	public void setUp() {
+		log.info(
+		        "****************************** Starting test cases execution  *****************************************");
+		initialization();
+		testUtil = new TestUtil();
+		homePage = new HomePage();
+		loginPage = new LoginPage();
+		registrationPage = new RegisterPage();
 
-@Test(priority=4)
-public void verifyLoginLogoTest(){
-	testUtil.ExplicitWait();
-	Assert.assertTrue(homePage.verifyLoginLogo());
-}
+	}
 
-@Test(priority=5)
-public void verifyContactUsLogoTest(){
-	testUtil.ExplicitWait();
-	Assert.assertTrue(homePage.verifyContactUsLogo());
-}
+	@Test(priority = 1)
+	public void verifyHomePageTitleTest() {
+		log.info("****************************** starting test case *****************************************");
+		log.info("****************************** JusDoneTitleTest *****************************************");
 
-@Test(priority=6)
-public void verifyAboutUsLogoTest(){
-	testUtil.ExplicitWait();
-	Assert.assertTrue(homePage.verifyAboutUsLogo());
-}
+		String homePageTitle = homePage.verifyHomePageTitle();
+		Assert.assertEquals(homePageTitle, "jusDone", "Home page title  matched");
 
-@Test(priority=7)
-public void verifySignupButtonTest(){
-	testUtil.ExplicitWait();
-	signUpPage = homePage.clickOnSignUpLogo();
-}
+		log.info("****************************** ending test case *****************************************");
+		log.info("****************************** JusDoneTitleTest *****************************************");
 
+	}
+
+	@Test(priority = 2)
+	public void verifyJusDoneLogoTest() {
+		log.info("****************************** starting test case *****************************************");
+		log.info("****************************** JusDoneLogoTest *****************************************");
+
+		Assert.assertTrue(homePage.verifyJusDoneLogo());
+
+		log.info("****************************** starting test case *****************************************");
+		log.info("****************************** JusDoneLogoTest *****************************************");
+
+	}
+
+	@Test(priority = 3)
+	public void verifySignUpLogoTest() {
+		log.info("****************************** SignUpLogoTest *****************************************");
+
+		Assert.assertTrue(homePage.verifySignUpLogo());
+	}
+
+	@Test(priority = 4)
+	public void verifyLoginLogoTest() {
+		log.info("****************************** LoginLogoTest *****************************************");
+
+		Assert.assertTrue(homePage.verifyLoginLogo());
+	}
+
+	@Test(priority = 5)
+	public void verifyContactUsLogoTest() {
+		log.info("****************************** ContactUsLogoTest *****************************************");
+
+		Assert.assertTrue(homePage.verifyContactUsLogo());
+	}
+
+	@Test(priority = 6)
+	public void verifyAboutUsLogoTest() {
+		log.info("****************************** AboutUsLogoTest *****************************************");
+
+		Assert.assertTrue(homePage.verifyAboutUsLogo());
+	}
+
+	@Test(priority = 7)
+	public void ClickOnSignupLogoTest() {
+		log.info("****************************** ClickOnSignupLogoTest *****************************************");
+
+		try {
+			testUtil.takeScreenshotAtEndOfTest();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		registrationPage = homePage.clickOnSignUpLogo();
+	}
+
+	@Test(priority = 8)
+	public void ClickLoginBtnTest() {
+		log.info("****************************** ClickLoginButton *****************************************");
+
+		driver.navigate().back();
+		try {
+			testUtil.takeScreenshotAtEndOfTest();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		loginPage = homePage.ClickLoginBtn();
+	}
 
 	@AfterMethod
-		public void tearDown(){
+	public void tearDown() {
+		log.info("****************************** Browser is closed *****************************************");
+
 		driver.quit();
-		}
-		
-		
-		
-		
+	}
 
 }
