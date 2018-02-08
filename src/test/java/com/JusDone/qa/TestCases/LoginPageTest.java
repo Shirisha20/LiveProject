@@ -54,7 +54,7 @@ public class LoginPageTest extends TestBase {
 	}
 
 	// Verifying RememberMe is Selected
-	@Test(priority = 4)
+	@Test(priority = 4, enabled = false)
 	public void verifyLRememberMeTest() {
 		Assert.assertTrue(loginPage.verifyLRememberMe());
 	}

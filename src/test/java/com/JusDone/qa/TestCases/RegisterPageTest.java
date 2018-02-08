@@ -63,7 +63,7 @@ public class RegisterPageTest extends TestBase {
 		return data;
 	}
 
-	@Test(priority = 3, dataProvider = "VerifyValidAcctNameMsg")
+	@Test(priority = 3, dataProvider = "VerifyValidAcctNameMsg", enabled = false)
 	public void VerifyValidAcctNameMsgTest(String Name, String Email, String Pwd, String ConfirmPwd) {
 		registerPage.VerifyValidAcctNameMsg(Name, Email, Pwd, ConfirmPwd);
 		try {

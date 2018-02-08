@@ -147,7 +147,7 @@ public class DashBoardPageTest extends TestBase {
 	}
 
 	// Clicking on Task Button to go to Task Page
-	@Test(priority = 17)
+	@Test(priority = 17, enabled = false)
 	public void ClickCreateNewTaskLinkTest() {
 		dashBoardPage.ClickCreateNewTaskLink();
 	}
