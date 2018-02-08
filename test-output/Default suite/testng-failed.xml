@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.JusDone.qa.TestCases.RegisterPageTest">
+      <class name="com.JusDone.qa.TestCases.DashBoardPageTest">
         <methods>
-          <include name="VerifyValidAcctNameMsgTest" invocation-numbers="0"/>
-          <include name="tearDown"/>
+          <include name="verifyTeamNameLabelTest"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.JusDone.qa.TestCases.RegisterPageTest -->
+      </class> <!-- com.JusDone.qa.TestCases.DashBoardPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

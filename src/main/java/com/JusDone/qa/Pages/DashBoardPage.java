@@ -1,5 +1,6 @@
 package com.JusDone.qa.Pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -63,7 +64,7 @@ public class DashBoardPage extends TestBase {
 	@FindBy(xpath = "//input[@id='company_url']")
 	WebElement CompanyURLField;
 
-	@FindBy(xpath = "html/body/div[1]/div[1]/div/div/div[1]/div/div[2]/div[1]/h5")
+	@FindBy(xpath = "/html/body/div[1]/div[1]/div/div/div[1]/div/div[2]/div[1]/h5")
 	WebElement TeamNameLabel;
 
 	@FindBy(xpath = "html/body/div[1]/div[1]/div/div/div[1]/div/div[2]/div[1]/div/div/div/div/center/ul/li[2]/a")
@@ -101,6 +102,8 @@ public class DashBoardPage extends TestBase {
 
 	// Verifying TeamName Label is Displayed
 	public boolean verifyTeamNameLabel() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();", TeamNameLabel);
 		return TeamNameLabel.isDisplayed();
 	}
 
