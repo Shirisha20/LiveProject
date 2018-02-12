@@ -4,38 +4,41 @@
   <listeners>
     <listener class-name="com.qa.ExtentReportListener.ExtentReportListenerNG"/>
   </listeners>
-  <test name="RegisterPageTests(failed)">
-    <classes>
-      <class name="com.JusDone.qa.TestCases.RegisterPageTest">
-        <methods>
-          <include name="VerifyValidAcctNameMsgTest" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="verifyExistingUserBtnTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.JusDone.qa.TestCases.RegisterPageTest -->
-    </classes>
-  </test> <!-- RegisterPageTests(failed) -->
-  <test name="LoginPageTests(failed)">
+  <test name="MultipleTests using Selenium Grid with Chrome Browser(failed)">
+    <parameter name="browserName" value="chrome"/>
     <classes>
       <class name="com.JusDone.qa.TestCases.LoginPageTest">
         <methods>
-          <include name="verifyLRememberMeTest"/>
+          <include name="InvalidLoginTest"/>
+          <include name="verifyLCreateAcctBtnTest"/>
+          <include name="verifyLForgotPwdTest"/>
+          <include name="verifyLoginBtnTest"/>
+          <include name="BlankInputLoginTest"/>
+          <include name="verifyLoginNameTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="ValidLoginTest"/>
         </methods>
       </class> <!-- com.JusDone.qa.TestCases.LoginPageTest -->
     </classes>
-  </test> <!-- LoginPageTests(failed) -->
-  <test name="DashBoardPageTests(failed)">
+  </test> <!-- MultipleTests using Selenium Grid with Chrome Browser(failed) -->
+  <test name="Hi(failed)">
+    <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.JusDone.qa.TestCases.DashBoardPageTest">
+      <class name="com.JusDone.qa.TestCases.HomePageTest">
         <methods>
-          <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="ClickLoginBtnTest"/>
+          <include name="verifyJusDoneLogoTest"/>
+          <include name="verifySignUpLogoTest"/>
+          <include name="verifyAboutUsLogoTest"/>
           <include name="tearDown"/>
-          <include name="ClickCreateNewTaskLinkTest"/>
+          <include name="verifyContactUsLogoTest"/>
+          <include name="verifyLoginLogoTest"/>
+          <include name="ClickOnSignupLogoTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.JusDone.qa.TestCases.DashBoardPageTest -->
+      </class> <!-- com.JusDone.qa.TestCases.HomePageTest -->
     </classes>
-  </test> <!-- DashBoardPageTests(failed) -->
+  </test> <!-- Hi(failed) -->
 </suite> <!-- Failed suite [JusDone Application Test Automation Test Suite] -->

@@ -3,13 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.JusDone.qa.TestCases.DashBoardPageTest">
+      <class name="com.JusDone.qa.TestCases.LoginPageTest">
         <methods>
-          <include name="verifyTeamNameLabelTest"/>
+          <include name="InvalidLoginTest"/>
+          <include name="verifyLCreateAcctBtnTest"/>
+          <include name="verifyLForgotPwdTest"/>
+          <include name="verifyLoginBtnTest"/>
+          <include name="BlankInputLoginTest"/>
+          <include name="verifyLoginNameTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="ValidLoginTest"/>
         </methods>
-      </class> <!-- com.JusDone.qa.TestCases.DashBoardPageTest -->
+      </class> <!-- com.JusDone.qa.TestCases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

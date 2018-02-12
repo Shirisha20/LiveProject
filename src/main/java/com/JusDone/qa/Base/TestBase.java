@@ -14,15 +14,15 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import com.JusDone.qa.Util.TestUtil;
 
 public class TestBase {
-	
+
 	public static WebDriver driver;
 	public static Properties prop;
-	
-	public TestBase(){
+
+	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/JusDone"
-			+ "/qa/Config/Config.Properties");
+			FileInputStream ip = new FileInputStream(
+			        System.getProperty("user.dir") + "/src/main/java/com/JusDone" + "/qa/Config/Config.Properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -30,27 +30,29 @@ public class TestBase {
 			e.printStackTrace();
 		}
 	}
-	
-	public static void initialization(){
+
+	public static void initialization() {
 		String browserName = prop.getProperty("browser");
-		
-		if(browserName.equals("Chrome")){
-			System.setProperty("webdriver.chrome.driver", "C:\\Selenium Projects\\JusDone_App\\src\\Browsers\\chromedriver.exe");	
-			driver = new ChromeDriver(); 
+
+		if (browserName.equals("Chrome")) {
+			System.setProperty("webdriver.chrome.driver",
+			        "C:\\Selenium_Projects\\JusDone_App\\src\\Browsers\\chromedriver.exe");
+			driver = new ChromeDriver();
+		} else if (browserName.equals("FF")) {
+			System.setProperty("webdriver.gecko.driver",
+			        "C:\\Selenium_Projects\\JusDone_App\\src\\Browsers\\geckodriver.exe");
+			driver = new FirefoxDriver();
+		} else if (browserName.equals("IE")) {
+			System.setProperty("webdriver.ie.driver",
+			        "C:\\Selenium_Projects\\JusDone_App\\src\\Browsers\\IEDriverServer.exe");
+			driver = new InternetExplorerDriver();
 		}
-		else if(browserName.equals("FF")){
-			System.setProperty("webdriver.gecko.driver", "C:\\Selenium Projects\\JusDone_App\\src\\Browsers\\geckodriver.exe");	
-			driver = new FirefoxDriver(); 
-		} 
-		else if(browserName.equals("IE")){
-			System.setProperty("webdriver.ie.driver", "C:\\Selenium Projects\\JusDone_App\\src\\Browsers\\IEDriverServer.exe");	
-			driver = new InternetExplorerDriver(); 
-		}
-	driver.manage().window().maximize();
-	//driver.manage().deleteAllCookies();
-	driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
-	driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-	
-	driver.get(prop.getProperty("url"));
+		driver.manage().window().maximize();
+		// driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+
+		driver.get(prop.getProperty("url"));
 	}
+
 }
