@@ -1,7 +1,5 @@
 package com.JusDone.qa.Util;
 
-
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -23,15 +21,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.JusDone.qa.Base.TestBase;
 
 public class TestUtil extends TestBase {
-	
+
 	public static long PAGE_LOAD_TIMEOUT = 40;
 	public static long IMPLICIT_WAIT = 20;
-	public static String TESTDATA_SHEET_PATH = "C:\\Selenium Projects\\JusDone_App\\src\\main\\java\\com\\JusDone\\qa\\TestData\\JDTestData.xlsx";
-	
-	 public static Workbook book;
+	public static String TESTDATA_SHEET_PATH = "C:\\Selenium_Projects\\JusDone_App\\src\\main\\java\\com\\JusDone\\qa\\TestData\\JDTestData.xlsx";
+
+	public static Workbook book;
 	public static Sheet sheet;
 
-	
 	public static Object[][] getTestData(String sheetName) {
 		FileInputStream file = null;
 		try {
@@ -48,32 +45,28 @@ public class TestUtil extends TestBase {
 		}
 		sheet = book.getSheet(sheetName);
 		Object[][] data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
-		System.out.println(sheet.getLastRowNum() + "--------" +
-		 sheet.getRow(0).getLastCellNum());
+		System.out.println(sheet.getLastRowNum() + "--------" + sheet.getRow(0).getLastCellNum());
 		for (int i = 0; i < sheet.getLastRowNum(); i++) {
 			for (int k = 0; k < sheet.getRow(0).getLastCellNum(); k++) {
 				data[i][k] = sheet.getRow(i + 1).getCell(k).toString();
-				 System.out.println(data[i][k]);
+				System.out.println(data[i][k]);
 			}
 		}
 		return data;
 	}
-	
-	public  void takeScreenshotAtEndOfTest() throws IOException {
+
+	public void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
-		
+
 		FileUtils.copyFile(scrFile, new File(currentDir + "/ScreenShots/" + System.currentTimeMillis() + ".png"));
-		
-		}
-	
-	public void ExplicitWait() {
-	WebDriverWait wait = new WebDriverWait(driver, 10);
-	List<WebElement> element = wait.until(
-	        ExpectedConditions.visibilityOfAllElementsLocatedBy(By.tagName("label")));
 
 	}
 
-	
+	public void ExplicitWait() {
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		List<WebElement> element = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.tagName("label")));
+
+	}
 
 }
