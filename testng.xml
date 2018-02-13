@@ -10,27 +10,27 @@
 			<class name="com.JusDone.qa.TestCases.LoginPageTest"/>
 				</classes>
 				</test>
+				
 			<test name="HomepageTest">
 			<classes>
 			<class name="com.JusDone.qa.TestCases.HomePageTest"/>
 			</classes>
 				</test>
 				
-				</test>
+
 			<test name="RegisterPageTest">
 			<classes>
 			<class name="com.JusDone.qa.TestCases.RegisterPageTest"/>
 			</classes>
 				</test>
 				
-				</test>
+
 			<test name="DashBoardPageTest">
 			<classes>
 			<class name="com.JusDone.qa.TestCases.DashBoardPageTest"/>
 			</classes>
 				</test>
-				
-				</test>
+
 			<test name="TaskPageTest">
 			<classes>
 			<class name="com.JusDone.qa.TestCases.TaskPageTest"/>

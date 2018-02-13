@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="804.085" tests="44" errors="0" skipped="4" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="918.528" tests="44" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Selenium_Projects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3682457739702307641.tmp"/>
+    <property name="classworlds.conf" value="C:\Selenium_Projects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4546265111723985937.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Selenium Jar Files\apache-maven-3.5.2\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;;C:\Users\venka\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,551 +60,48 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verifyJusDoneImageTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="6.068"/>
-  <testcase name="verifyLoginNameTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="0.146"/>
-  <testcase name="verifyHomePageTitleTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.009"/>
-  <testcase name="verifyRegisterNameTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="0.207"/>
-  <testcase name="verifyCreateNewTaskLinkTest" classname="com.JusDone.qa.TestCases.TaskPageTest" time="3.059"/>
+  <testcase name="verifyLoginNameTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="0.245"/>
+  <testcase name="verifyLForgotPwdTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="0.086"/>
+  <testcase name="verifyLoginBtnTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="0.103"/>
+  <testcase name="verifyLCreateAcctBtnTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="0.102"/>
+  <testcase name="ValidLoginTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="7.858"/>
+  <testcase name="InvalidLoginTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="2.316"/>
+  <testcase name="BlankInputLoginTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="0.786"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.015"/>
+  <testcase name="verifyJusDoneLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.109"/>
+  <testcase name="verifySignUpLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.087"/>
+  <testcase name="verifyLoginLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.083"/>
+  <testcase name="verifyContactUsLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.075"/>
+  <testcase name="verifyAboutUsLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.075"/>
+  <testcase name="ClickOnSignupLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="7.988"/>
+  <testcase name="ClickLoginBtnTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="9.861"/>
+  <testcase name="verifyRegisterNameTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="0.253"/>
+  <testcase name="verifyExistingUserBtnTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="0.09"/>
+  <testcase name="VerifyExistingAcctErrorMsgTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="2.757"/>
+  <testcase name="VerifyInvalidEmailErrorMsgTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="2.396"/>
+  <testcase name="VerifyPwdMatchErrorMsgTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="3.313"/>
+  <testcase name="VerifyBlankErrorMsgTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="1.444"/>
+  <testcase name="ClickSignInButtonTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="0.108"/>
+  <testcase name="verifyJusDoneImageTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="6.04"/>
   <testcase name="verifyUserNameTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.043"/>
-  <testcase name="verifyLForgotPwdTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="0.119"/>
-  <testcase name="verifyJusDoneLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.084"/>
-  <testcase name="verifyExistingUserBtnTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="0.075"/>
-  <testcase name="verifyMembersLinkTest" classname="com.JusDone.qa.TestCases.TaskPageTest" time="0.059"/>
-  <testcase name="verifyTeamLabelTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.036"/>
-  <testcase name="verifyLoginBtnTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="0.048"/>
-  <testcase name="verifySignUpLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.07"/>
-  <testcase name="verifySettingsLinkTest" classname="com.JusDone.qa.TestCases.TaskPageTest" time="0.057"/>
-  <testcase name="verifySearchBoxTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.039"/>
-  <testcase name="verifyLoginLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.074"/>
-  <testcase name="VerifyExistingAcctErrorMsgTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="0">
-    <skipped message="java.lang.NullPointerException"/>
-    <system-out><![CDATA[02-12-2018 11:18:01 HomePageTest.java INFO  [main] TestCases.HomePageTest 126 - ****************************** Browser is closed *****************************************
-02-12-2018 11:18:01 RequestAddCookies.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
-02-12-2018 11:18:01 RequestAuthCache.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
-02-12-2018 11:18:01 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:9250][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-02-12-2018 11:18:01 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 228][route: {}->http://localhost:9250][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-02-12-2018 11:18:01 MainClientExec.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] execchain.MainClientExec 235 - Opening connection {}->http://localhost:9250
-02-12-2018 11:18:01 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:9250
-02-12-2018 11:18:01 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:58426<->127.0.0.1:9250
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-228: set socket timeout to 10800000
-02-12-2018 11:18:01 MainClientExec.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] execchain.MainClientExec 256 - Executing request DELETE /session/7d5491b4-5969-4df8-8e09-a64bb03c4ce9 HTTP/1.1
-02-12-2018 11:18:01 MainClientExec.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
-02-12-2018 11:18:01 MainClientExec.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 133 - http-outgoing-228 >> DELETE /session/7d5491b4-5969-4df8-8e09-a64bb03c4ce9 HTTP/1.1
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 136 - http-outgoing-228 >> Host: localhost:9250
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 136 - http-outgoing-228 >> Connection: Keep-Alive
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 136 - http-outgoing-228 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 136 - http-outgoing-228 >> Accept-Encoding: gzip,deflate
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 >> "DELETE /session/7d5491b4-5969-4df8-8e09-a64bb03c4ce9 HTTP/1.1[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 >> "Host: localhost:9250[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 >> "Connection: Keep-Alive[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 >> "[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 << "HTTP/1.1 200 OK[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 << "Connection: close[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 << "Content-Type: application/json; charset=utf-8[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 << "Cache-Control: no-cache[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 << "Content-Length: 13[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 << "Date: Mon, 12 Feb 2018 17:18:01 GMT[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 73 - http-outgoing-228 << "[\r][\n]"
-02-12-2018 11:18:01 Wire.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.wire 87 - http-outgoing-228 << "{"value": {}}"
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 122 - http-outgoing-228 << HTTP/1.1 200 OK
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 125 - http-outgoing-228 << Connection: close
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 125 - http-outgoing-228 << Content-Type: application/json; charset=utf-8
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 125 - http-outgoing-228 << Cache-Control: no-cache
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 125 - http-outgoing-228 << Content-Length: 13
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] http.headers 125 - http-outgoing-228 << Date: Mon, 12 Feb 2018 17:18:01 GMT
-02-12-2018 11:18:01 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-228: Close connection
-02-12-2018 11:18:01 ConnectionHolder.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] execchain.MainClientExec 104 - Connection discarded
-02-12-2018 11:18:01 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 228][route: {}->http://localhost:9250][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-02-12-2018 11:18:01 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 7d5491b4-5969-4df8-8e09-a64bb03c4ce9 to remote] conn.PoolingHttpClientConnectionManager 407 - Closing connections idle longer than 0 SECONDS
-]]></system-out>
-    <system-err><![CDATA[1518455881306	Marionette	INFO	New connections will no longer be accepted
-Unable to read VR Path Registry from C:\Users\venka\AppData\Local\openvr\openvrpaths.vrpath
-[Parent 14624] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-java.io.FileNotFoundException: C:\Selenium Projects\JusDone_App\src\main\java\com\JusDone\qa\TestData\JDTestData.xlsx (The system cannot find the path specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileInputStream.<init>(FileInputStream.java:93)
-	at com.JusDone.qa.Util.TestUtil.getTestData(TestUtil.java:38)
-	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyExistingAcctErrorMsg(RegisterPageTest.java:79)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-[Utils] [ERROR] [Error] java.lang.NullPointerException
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:172)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:144)
-	at com.JusDone.qa.Util.TestUtil.getTestData(TestUtil.java:43)
-	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyExistingAcctErrorMsg(RegisterPageTest.java:79)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-
-]]></system-err>
-  </testcase>
-  <testcase name="ClickCreateNewTaskLinkTest" classname="com.JusDone.qa.TestCases.TaskPageTest" time="4.365"/>
-  <testcase name="verifyTeamNameLabelTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.073"/>
-  <testcase name="verifyLCreateAcctBtnTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="0.056"/>
-  <testcase name="verifyContactUsLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.067"/>
-  <testcase name="VerifyInvalidEmailErrorMsgTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="0">
-    <skipped message="java.lang.NullPointerException"/>
-    <system-out><![CDATA[02-12-2018 11:19:19 HomePageTest.java INFO  [main] TestCases.HomePageTest 126 - ****************************** Browser is closed *****************************************
-02-12-2018 11:19:19 RequestAddCookies.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
-02-12-2018 11:19:19 RequestAuthCache.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
-02-12-2018 11:19:19 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:40979][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-02-12-2018 11:19:19 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 290][route: {}->http://localhost:40979][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-02-12-2018 11:19:19 MainClientExec.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] execchain.MainClientExec 235 - Opening connection {}->http://localhost:40979
-02-12-2018 11:19:19 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:40979
-02-12-2018 11:19:19 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:58664<->127.0.0.1:40979
-02-12-2018 11:19:19 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-290: set socket timeout to 10800000
-02-12-2018 11:19:19 MainClientExec.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] execchain.MainClientExec 256 - Executing request DELETE /session/6ccae421-3555-4dfb-adff-8e096fdf3b20 HTTP/1.1
-02-12-2018 11:19:19 MainClientExec.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
-02-12-2018 11:19:19 MainClientExec.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
-02-12-2018 11:19:19 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 133 - http-outgoing-290 >> DELETE /session/6ccae421-3555-4dfb-adff-8e096fdf3b20 HTTP/1.1
-02-12-2018 11:19:19 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 136 - http-outgoing-290 >> Host: localhost:40979
-02-12-2018 11:19:19 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 136 - http-outgoing-290 >> Connection: Keep-Alive
-02-12-2018 11:19:19 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 136 - http-outgoing-290 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
-02-12-2018 11:19:19 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 136 - http-outgoing-290 >> Accept-Encoding: gzip,deflate
-02-12-2018 11:19:19 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 >> "DELETE /session/6ccae421-3555-4dfb-adff-8e096fdf3b20 HTTP/1.1[\r][\n]"
-02-12-2018 11:19:19 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 >> "Host: localhost:40979[\r][\n]"
-02-12-2018 11:19:19 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 >> "Connection: Keep-Alive[\r][\n]"
-02-12-2018 11:19:19 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
-02-12-2018 11:19:19 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-02-12-2018 11:19:19 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 >> "[\r][\n]"
-02-12-2018 11:19:20 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 << "HTTP/1.1 200 OK[\r][\n]"
-02-12-2018 11:19:20 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 << "Connection: close[\r][\n]"
-02-12-2018 11:19:20 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 << "Content-Type: application/json; charset=utf-8[\r][\n]"
-02-12-2018 11:19:20 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 << "Cache-Control: no-cache[\r][\n]"
-02-12-2018 11:19:20 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 << "Content-Length: 13[\r][\n]"
-02-12-2018 11:19:20 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 << "Date: Mon, 12 Feb 2018 17:19:20 GMT[\r][\n]"
-02-12-2018 11:19:20 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 73 - http-outgoing-290 << "[\r][\n]"
-02-12-2018 11:19:20 Wire.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.wire 87 - http-outgoing-290 << "{"value": {}}"
-02-12-2018 11:19:20 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 122 - http-outgoing-290 << HTTP/1.1 200 OK
-02-12-2018 11:19:20 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 125 - http-outgoing-290 << Connection: close
-02-12-2018 11:19:20 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 125 - http-outgoing-290 << Content-Type: application/json; charset=utf-8
-02-12-2018 11:19:20 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 125 - http-outgoing-290 << Cache-Control: no-cache
-02-12-2018 11:19:20 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 125 - http-outgoing-290 << Content-Length: 13
-02-12-2018 11:19:20 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] http.headers 125 - http-outgoing-290 << Date: Mon, 12 Feb 2018 17:19:20 GMT
-02-12-2018 11:19:20 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-290: Close connection
-02-12-2018 11:19:20 ConnectionHolder.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] execchain.MainClientExec 104 - Connection discarded
-02-12-2018 11:19:20 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 290][route: {}->http://localhost:40979][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-02-12-2018 11:19:20 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 6ccae421-3555-4dfb-adff-8e096fdf3b20 to remote] conn.PoolingHttpClientConnectionManager 407 - Closing connections idle longer than 0 SECONDS
-]]></system-out>
-    <system-err><![CDATA[1518455959920	Marionette	INFO	New connections will no longer be accepted
-[Parent 9504] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-java.io.FileNotFoundException: C:\Selenium Projects\JusDone_App\src\main\java\com\JusDone\qa\TestData\JDTestData.xlsx (The system cannot find the path specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileInputStream.<init>(FileInputStream.java:93)
-	at com.JusDone.qa.Util.TestUtil.getTestData(TestUtil.java:38)
-	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyInvalidEmailErrorMsg(RegisterPageTest.java:92)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-[Utils] [ERROR] [Error] java.lang.NullPointerException
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:172)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:144)
-	at com.JusDone.qa.Util.TestUtil.getTestData(TestUtil.java:43)
-	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyInvalidEmailErrorMsg(RegisterPageTest.java:92)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-
-]]></system-err>
-  </testcase>
+  <testcase name="verifyTeamLabelTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.051"/>
+  <testcase name="verifySearchBoxTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.043"/>
+  <testcase name="verifyTeamNameLabelTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.082"/>
   <testcase name="verifyDashBoardBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.025"/>
-  <testcase name="ValidLoginTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="9.777"/>
-  <testcase name="verifyAboutUsLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="0.07"/>
-  <testcase name="VerifyPwdMatchErrorMsgTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="0">
-    <skipped message="java.lang.NullPointerException"/>
-    <system-out><![CDATA[02-12-2018 11:20:14 HomePageTest.java INFO  [main] TestCases.HomePageTest 126 - ****************************** Browser is closed *****************************************
-02-12-2018 11:20:14 RequestAddCookies.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
-02-12-2018 11:20:14 RequestAuthCache.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
-02-12-2018 11:20:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:48045][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-02-12-2018 11:20:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 336][route: {}->http://localhost:48045][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-02-12-2018 11:20:14 MainClientExec.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] execchain.MainClientExec 235 - Opening connection {}->http://localhost:48045
-02-12-2018 11:20:14 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:48045
-02-12-2018 11:20:14 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:58846<->127.0.0.1:48045
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-336: set socket timeout to 10800000
-02-12-2018 11:20:14 MainClientExec.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] execchain.MainClientExec 256 - Executing request DELETE /session/0ffc7409-38c9-424e-a802-1ad392dae15b HTTP/1.1
-02-12-2018 11:20:14 MainClientExec.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
-02-12-2018 11:20:14 MainClientExec.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 133 - http-outgoing-336 >> DELETE /session/0ffc7409-38c9-424e-a802-1ad392dae15b HTTP/1.1
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 136 - http-outgoing-336 >> Host: localhost:48045
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 136 - http-outgoing-336 >> Connection: Keep-Alive
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 136 - http-outgoing-336 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 136 - http-outgoing-336 >> Accept-Encoding: gzip,deflate
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 >> "DELETE /session/0ffc7409-38c9-424e-a802-1ad392dae15b HTTP/1.1[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 >> "Host: localhost:48045[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 >> "Connection: Keep-Alive[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 >> "[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 << "HTTP/1.1 200 OK[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 << "Connection: close[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 << "Content-Type: application/json; charset=utf-8[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 << "Cache-Control: no-cache[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 << "Content-Length: 13[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 << "Date: Mon, 12 Feb 2018 17:20:14 GMT[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 73 - http-outgoing-336 << "[\r][\n]"
-02-12-2018 11:20:14 Wire.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.wire 87 - http-outgoing-336 << "{"value": {}}"
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 122 - http-outgoing-336 << HTTP/1.1 200 OK
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 125 - http-outgoing-336 << Connection: close
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 125 - http-outgoing-336 << Content-Type: application/json; charset=utf-8
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 125 - http-outgoing-336 << Cache-Control: no-cache
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 125 - http-outgoing-336 << Content-Length: 13
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] http.headers 125 - http-outgoing-336 << Date: Mon, 12 Feb 2018 17:20:14 GMT
-02-12-2018 11:20:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-336: Close connection
-02-12-2018 11:20:14 ConnectionHolder.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] execchain.MainClientExec 104 - Connection discarded
-02-12-2018 11:20:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 336][route: {}->http://localhost:48045][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-02-12-2018 11:20:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 0ffc7409-38c9-424e-a802-1ad392dae15b to remote] conn.PoolingHttpClientConnectionManager 407 - Closing connections idle longer than 0 SECONDS
-]]></system-out>
-    <system-err><![CDATA[1518456014486	Marionette	INFO	New connections will no longer be accepted
-java.io.FileNotFoundException: C:\Selenium Projects\JusDone_App\src\main\java\com\JusDone\qa\TestData\JDTestData.xlsx (The system cannot find the path specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileInputStream.<init>(FileInputStream.java:93)
-	at com.JusDone.qa.Util.TestUtil.getTestData(TestUtil.java:38)
-	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyPwdMatchErrorMsg(RegisterPageTest.java:108)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-[Utils] [ERROR] [Error] java.lang.NullPointerException
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:172)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:144)
-	at com.JusDone.qa.Util.TestUtil.getTestData(TestUtil.java:43)
-	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyPwdMatchErrorMsg(RegisterPageTest.java:108)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-
-]]></system-err>
-  </testcase>
-  <testcase name="verifyTeamsBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.025"/>
-  <testcase name="InvalidLoginTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="2.3"/>
-  <testcase name="VerifyBlankErrorMsgTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="0">
-    <skipped message="java.lang.NullPointerException"/>
-    <system-out><![CDATA[02-12-2018 11:20:53 RequestAddCookies.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
-02-12-2018 11:20:53 RequestAuthCache.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
-02-12-2018 11:20:53 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:41997][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-02-12-2018 11:20:53 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 378][route: {}->http://localhost:41997][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
-02-12-2018 11:20:53 MainClientExec.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] execchain.MainClientExec 235 - Opening connection {}->http://localhost:41997
-02-12-2018 11:20:53 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:41997
-02-12-2018 11:20:53 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:58986<->127.0.0.1:41997
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-378: set socket timeout to 10800000
-02-12-2018 11:20:53 MainClientExec.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] execchain.MainClientExec 256 - Executing request DELETE /session/04c046c8-4dfa-4400-9b3e-b0a92d748f7a HTTP/1.1
-02-12-2018 11:20:53 MainClientExec.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
-02-12-2018 11:20:53 MainClientExec.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 133 - http-outgoing-378 >> DELETE /session/04c046c8-4dfa-4400-9b3e-b0a92d748f7a HTTP/1.1
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 136 - http-outgoing-378 >> Host: localhost:41997
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 136 - http-outgoing-378 >> Connection: Keep-Alive
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 136 - http-outgoing-378 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 136 - http-outgoing-378 >> Accept-Encoding: gzip,deflate
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 >> "DELETE /session/04c046c8-4dfa-4400-9b3e-b0a92d748f7a HTTP/1.1[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 >> "Host: localhost:41997[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 >> "Connection: Keep-Alive[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 >> "[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 << "HTTP/1.1 200 OK[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 << "Connection: close[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 << "Content-Type: application/json; charset=utf-8[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 << "Cache-Control: no-cache[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 << "Content-Length: 13[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 << "Date: Mon, 12 Feb 2018 17:20:53 GMT[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 73 - http-outgoing-378 << "[\r][\n]"
-02-12-2018 11:20:53 Wire.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.wire 87 - http-outgoing-378 << "{"value": {}}"
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 122 - http-outgoing-378 << HTTP/1.1 200 OK
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 125 - http-outgoing-378 << Connection: close
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 125 - http-outgoing-378 << Content-Type: application/json; charset=utf-8
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 125 - http-outgoing-378 << Cache-Control: no-cache
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 125 - http-outgoing-378 << Content-Length: 13
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] http.headers 125 - http-outgoing-378 << Date: Mon, 12 Feb 2018 17:20:53 GMT
-02-12-2018 11:20:53 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-378: Close connection
-02-12-2018 11:20:53 ConnectionHolder.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] execchain.MainClientExec 104 - Connection discarded
-02-12-2018 11:20:53 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 378][route: {}->http://localhost:41997][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
-02-12-2018 11:20:53 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 04c046c8-4dfa-4400-9b3e-b0a92d748f7a to remote] conn.PoolingHttpClientConnectionManager 407 - Closing connections idle longer than 0 SECONDS
-]]></system-out>
-    <system-err><![CDATA[1518456053009	Marionette	INFO	New connections will no longer be accepted
-[Parent 12412] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-java.io.FileNotFoundException: C:\Selenium Projects\JusDone_App\src\main\java\com\JusDone\qa\TestData\JDTestData.xlsx (The system cannot find the path specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileInputStream.<init>(FileInputStream.java:93)
-	at com.JusDone.qa.Util.TestUtil.getTestData(TestUtil.java:38)
-	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyBlankErrorMsg(RegisterPageTest.java:124)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-[Utils] [ERROR] [Error] java.lang.NullPointerException
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:172)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:144)
-	at com.JusDone.qa.Util.TestUtil.getTestData(TestUtil.java:43)
-	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyBlankErrorMsg(RegisterPageTest.java:124)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-
-]]></system-err>
-  </testcase>
-  <testcase name="ClickOnSignupLogoTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="4.785"/>
-  <testcase name="verifyTaskBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.021"/>
-  <testcase name="BlankInputLoginTest" classname="com.JusDone.qa.TestCases.LoginPageTest" time="0.586"/>
-  <testcase name="ClickSignInButtonTest" classname="com.JusDone.qa.TestCases.RegisterPageTest" time="0.071"/>
-  <testcase name="ClickLoginBtnTest" classname="com.JusDone.qa.TestCases.HomePageTest" time="5.58"/>
+  <testcase name="verifyTeamsBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.021"/>
+  <testcase name="verifyTaskBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.03"/>
   <testcase name="verifyInvitesBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.023"/>
-  <testcase name="verifySettingsBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.021"/>
-  <testcase name="verifyMenuBarTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.028"/>
-  <testcase name="verifyCreateNewTeamBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.018"/>
-  <testcase name="verifyBellBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.024"/>
-  <testcase name="verifyLogOutBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.024"/>
-  <testcase name="verifyCreateNewTaskLinkTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.023"/>
-  <testcase name="CreateTeamBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="8.049"/>
-  <testcase name="ClickTaskBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="6.711"/>
-  <testcase name="ClickLogOutBtn" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.865"/>
+  <testcase name="verifySettingsBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.023"/>
+  <testcase name="verifyMenuBarTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.025"/>
+  <testcase name="verifyCreateNewTeamBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.027"/>
+  <testcase name="verifyBellBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.034"/>
+  <testcase name="verifyLogOutBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.026"/>
+  <testcase name="verifyCreateNewTaskLinkTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.026"/>
+  <testcase name="CreateTeamBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="9.142"/>
+  <testcase name="ClickTaskBtnTest" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="6.473"/>
+  <testcase name="ClickLogOutBtn" classname="com.JusDone.qa.TestCases.DashBoardPageTest" time="0.896"/>
+  <testcase name="verifyCreateNewTaskLinkTest" classname="com.JusDone.qa.TestCases.TaskPageTest" time="3.055"/>
+  <testcase name="verifyMembersLinkTest" classname="com.JusDone.qa.TestCases.TaskPageTest" time="0.058"/>
+  <testcase name="verifySettingsLinkTest" classname="com.JusDone.qa.TestCases.TaskPageTest" time="0.07"/>
+  <testcase name="ClickCreateNewTaskLinkTest" classname="com.JusDone.qa.TestCases.TaskPageTest" time="4.341"/>
 </testsuite>
