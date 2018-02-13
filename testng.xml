@@ -5,20 +5,38 @@
 		<listener class-name="com.qa.ExtentReportListener.ExtentReportListenerNG" />
 	</listeners>
 
-	<test name="MultipleTests using Selenium Grid with Chrome Browser">
-	<parameter name ="browserName1" value="chrome"/>
-			<classes>
+	<test name="LoginTest">
+				<classes>
 			<class name="com.JusDone.qa.TestCases.LoginPageTest"/>
 				</classes>
+				
 			</test>
-			<test name="Hi">
-	<parameter name ="browserName2" value="firefox"/>
-				<classes>
+			<test name="HomepageTest">
+			<classes>
 			<class name="com.JusDone.qa.TestCases.HomePageTest"/>
-			
-				</classes>
+			</classes>
 				</test>
 				
-		
-			
+				</test>
+			<test name="RegisterPageTest">
+			<classes>
+			<class name="com.JusDone.qa.TestCases.RegisterPageTest"/>
+			</classes>
+				</test>
+				
+				</test>
+			<test name="DashBoardPageTest">
+			<classes>
+			<class name="com.JusDone.qa.TestCases.DashBoardPageTest"/>
+			</classes>
+				</test>
+				
+				</test>
+			<test name="TaskPageTest">
+			<classes>
+			<class name="com.JusDone.qa.TestCases.TaskPageTest"/>
+			</classes>
+				</test>
+				
+								
 	</suite>
