@@ -9,8 +9,7 @@
 				<classes>
 			<class name="com.JusDone.qa.TestCases.LoginPageTest"/>
 				</classes>
-				
-			</test>
+				</test>
 			<test name="HomepageTest">
 			<classes>
 			<class name="com.JusDone.qa.TestCases.HomePageTest"/>
