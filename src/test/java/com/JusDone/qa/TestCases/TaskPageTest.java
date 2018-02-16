@@ -1,7 +1,6 @@
 package com.JusDone.qa.TestCases;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -47,30 +46,33 @@ public class TaskPageTest extends TestBase {
 	// Verifying CreateNewTask Link is Displayed
 	@Test(priority = 1)
 	public void verifyCreateNewTaskLinkTest() {
+
+		extentTest = extentReports.startTest("verifyCreateNewTaskLinkTest");
 		Assert.assertTrue(taskPage.verifyCreateNewTaskLink());
 	}
 
 	// Verifying Members link is Displayed
 	@Test(priority = 2)
 	public void verifyMembersLinkTest() {
+
+		extentTest = extentReports.startTest("verifyMembersLinkTest");
 		Assert.assertTrue(taskPage.verifyMembersLink());
 	}
 
 	// Verifying Settings link is Displayed
 	@Test(priority = 3)
 	public void verifySettingsLinkTest() {
+
+		extentTest = extentReports.startTest("verifySettingsLinkTest");
 		Assert.assertTrue(taskPage.verifySettingsLink());
 	}
 
 	// Clicking on CreateTaskButton
 	@Test(priority = 4)
 	public void ClickCreateNewTaskLinkTest() {
-		taskPage.ClickCreateNewTaskLink();
-	}
 
-	@AfterMethod
-	public void tearDown() {
-		driver.quit();
+		extentTest = extentReports.startTest("ClickCreateNewTaskLinkTest");
+		taskPage.ClickCreateNewTaskLink();
 	}
 
 }

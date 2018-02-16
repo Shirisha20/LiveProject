@@ -1,41 +1,40 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="JusDone Application Test Automation Test Suite">
 
-<listeners>
-		<listener class-name="com.qa.ExtentReportListener.ExtentReportListenerNG" />
-	</listeners>
+<test name="LoginTest">
+	<classes>
+		<class name="com.JusDone.qa.TestCases.LoginPageTest"/>
+	</classes>
+</test>
 
-	<test name="LoginTest">
-				<classes>
-			<class name="com.JusDone.qa.TestCases.LoginPageTest"/>
-				</classes>
-				</test>
-				
-			<test name="HomepageTest">
-			<classes>
-			<class name="com.JusDone.qa.TestCases.HomePageTest"/>
-			</classes>
-				</test>
-				
+<test name="HomepageTest">
+	<classes>
+		<class name="com.JusDone.qa.TestCases.HomePageTest"/>
+	</classes>
+</test>
 
-			<test name="RegisterPageTest">
-			<classes>
-			<class name="com.JusDone.qa.TestCases.RegisterPageTest"/>
-			</classes>
-				</test>
-				
+<test name="RegisterPageTest">
+	<classes>
+		<class name="com.JusDone.qa.TestCases.RegisterPageTest"/>
+	</classes>
+</test>
+	
+<test name="DashBoardPageTest">
+	<classes>
+		<class name="com.JusDone.qa.TestCases.DashBoardPageTest"/>
+	</classes>
+</test>
 
-			<test name="DashBoardPageTest">
-			<classes>
-			<class name="com.JusDone.qa.TestCases.DashBoardPageTest"/>
-			</classes>
-				</test>
+<test name="TaskPageTest">
+	<classes>
+		<class name="com.JusDone.qa.TestCases.TaskPageTest"/>
+	</classes>
+</test>
+					
+</suite>
 
-			<test name="TaskPageTest">
-			<classes>
-			<class name="com.JusDone.qa.TestCases.TaskPageTest"/>
-			</classes>
-				</test>
-				
-								
-	</suite>
+
+						
+
+
+

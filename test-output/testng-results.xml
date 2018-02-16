@@ -1,41 +1,521 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
+<testng-results skipped="0" failed="3" ignored="0" total="47" passed="44">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="106311" started-at="2018-02-12T19:29:03Z" finished-at="2018-02-12T19:30:50Z">
+  <suite name="JusDone Application Test Automation Test Suite" duration-ms="867126" started-at="2018-02-16T19:59:58Z" finished-at="2018-02-16T20:14:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="106311" started-at="2018-02-12T19:29:03Z" finished-at="2018-02-12T19:30:50Z">
-      <class name="com.JusDone.qa.TestCases.RegisterPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="setUp" is-config="true" duration-ms="15601" started-at="2018-02-12T13:29:03Z" finished-at="2018-02-12T13:29:19Z">
+    <test name="LoginTest" duration-ms="122852" started-at="2018-02-16T19:59:58Z" finished-at="2018-02-16T20:02:01Z">
+      <class name="com.JusDone.qa.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setUp" is-config="true" duration-ms="15011" started-at="2018-02-16T13:59:58Z" finished-at="2018-02-16T14:00:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyRegisterNameTest()[pri:1, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="verifyRegisterNameTest" duration-ms="159" started-at="2018-02-12T13:29:19Z" finished-at="2018-02-12T13:29:19Z">
+        <test-method status="PASS" signature="verifyLoginNameTest()[pri:1, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="verifyLoginNameTest" duration-ms="94" started-at="2018-02-16T14:00:13Z" finished-at="2018-02-16T14:00:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginNameTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setResults" is-config="true" duration-ms="265" started-at="2018-02-16T14:00:13Z" finished-at="2018-02-16T14:00:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginNameTest status=SUCCESS method=LoginPageTest.verifyLoginNameTest()[pri:1, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setUp" is-config="true" duration-ms="13784" started-at="2018-02-16T14:00:13Z" finished-at="2018-02-16T14:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLForgotPwdTest()[pri:2, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="verifyLForgotPwdTest" duration-ms="62" started-at="2018-02-16T14:00:27Z" finished-at="2018-02-16T14:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLForgotPwdTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setResults" is-config="true" duration-ms="266" started-at="2018-02-16T14:00:27Z" finished-at="2018-02-16T14:00:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLForgotPwdTest status=SUCCESS method=LoginPageTest.verifyLForgotPwdTest()[pri:2, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setUp" is-config="true" duration-ms="13631" started-at="2018-02-16T14:00:27Z" finished-at="2018-02-16T14:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginBtnTest()[pri:3, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="verifyLoginBtnTest" duration-ms="62" started-at="2018-02-16T14:00:41Z" finished-at="2018-02-16T14:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setResults" is-config="true" duration-ms="281" started-at="2018-02-16T14:00:41Z" finished-at="2018-02-16T14:00:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginBtnTest status=SUCCESS method=LoginPageTest.verifyLoginBtnTest()[pri:3, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setUp" is-config="true" duration-ms="13622" started-at="2018-02-16T14:00:41Z" finished-at="2018-02-16T14:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyLRememberMeTest()[pri:4, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="verifyLRememberMeTest" duration-ms="94" started-at="2018-02-16T14:00:55Z" finished-at="2018-02-16T14:00:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.JusDone.qa.TestCases.LoginPageTest.verifyLRememberMeTest(LoginPageTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLRememberMeTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setResults" is-config="true" duration-ms="406" started-at="2018-02-16T14:00:55Z" finished-at="2018-02-16T14:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLRememberMeTest status=FAILURE method=LoginPageTest.verifyLRememberMeTest()[pri:4, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setUp" is-config="true" duration-ms="13674" started-at="2018-02-16T14:00:55Z" finished-at="2018-02-16T14:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLCreateAcctBtnTest()[pri:5, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="verifyLCreateAcctBtnTest" duration-ms="62" started-at="2018-02-16T14:01:09Z" finished-at="2018-02-16T14:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLCreateAcctBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setResults" is-config="true" duration-ms="266" started-at="2018-02-16T14:01:09Z" finished-at="2018-02-16T14:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLCreateAcctBtnTest status=SUCCESS method=LoginPageTest.verifyLCreateAcctBtnTest()[pri:5, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setUp" is-config="true" duration-ms="12517" started-at="2018-02-16T14:01:09Z" finished-at="2018-02-16T14:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidLoginTest()[pri:6, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="ValidLoginTest" duration-ms="7554" started-at="2018-02-16T14:01:22Z" finished-at="2018-02-16T14:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:01:30Z" finished-at="2018-02-16T14:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginTest status=SUCCESS method=LoginPageTest.ValidLoginTest()[pri:6, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setUp" is-config="true" duration-ms="14276" started-at="2018-02-16T14:01:30Z" finished-at="2018-02-16T14:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InvalidLoginTest()[pri:7, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="InvalidLoginTest" duration-ms="2125" started-at="2018-02-16T14:01:44Z" finished-at="2018-02-16T14:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setResults" is-config="true" duration-ms="265" started-at="2018-02-16T14:01:46Z" finished-at="2018-02-16T14:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLoginTest status=SUCCESS method=LoginPageTest.InvalidLoginTest()[pri:7, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setUp" is-config="true" duration-ms="13379" started-at="2018-02-16T14:01:46Z" finished-at="2018-02-16T14:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="BlankInputLoginTest()[pri:8, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="BlankInputLoginTest" duration-ms="609" started-at="2018-02-16T14:02:00Z" finished-at="2018-02-16T14:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankInputLoginTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431]" name="setResults" is-config="true" duration-ms="266" started-at="2018-02-16T14:02:00Z" finished-at="2018-02-16T14:02:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlankInputLoginTest status=SUCCESS method=LoginPageTest.BlankInputLoginTest()[pri:8, instance:com.JusDone.qa.TestCases.LoginPageTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+      </class> <!-- com.JusDone.qa.TestCases.LoginPageTest -->
+    </test> <!-- LoginTest -->
+    <test name="HomepageTest" duration-ms="71969" started-at="2018-02-16T20:02:01Z" finished-at="2018-02-16T20:03:13Z">
+      <class name="com.JusDone.qa.TestCases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setUp" is-config="true" duration-ms="8289" started-at="2018-02-16T14:02:01Z" finished-at="2018-02-16T14:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:02:09Z" finished-at="2018-02-16T14:02:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitleTest status=SUCCESS method=HomePageTest.verifyHomePageTitleTest()[pri:1, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="verifyHomePageTitleTest" duration-ms="0" started-at="2018-02-16T14:02:09Z" finished-at="2018-02-16T14:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setUp" is-config="true" duration-ms="8772" started-at="2018-02-16T14:02:09Z" finished-at="2018-02-16T14:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyJusDoneLogoTest()[pri:2, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="verifyJusDoneLogoTest" duration-ms="63" started-at="2018-02-16T14:02:18Z" finished-at="2018-02-16T14:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJusDoneLogoTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:02:18Z" finished-at="2018-02-16T14:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyJusDoneLogoTest status=SUCCESS method=HomePageTest.verifyJusDoneLogoTest()[pri:2, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setUp" is-config="true" duration-ms="8106" started-at="2018-02-16T14:02:18Z" finished-at="2018-02-16T14:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpLogoTest()[pri:3, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="verifySignUpLogoTest" duration-ms="78" started-at="2018-02-16T14:02:26Z" finished-at="2018-02-16T14:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLogoTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setResults" is-config="true" duration-ms="266" started-at="2018-02-16T14:02:27Z" finished-at="2018-02-16T14:02:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignUpLogoTest status=SUCCESS method=HomePageTest.verifySignUpLogoTest()[pri:3, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setUp" is-config="true" duration-ms="7899" started-at="2018-02-16T14:02:27Z" finished-at="2018-02-16T14:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginLogoTest()[pri:4, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="verifyLoginLogoTest" duration-ms="47" started-at="2018-02-16T14:02:35Z" finished-at="2018-02-16T14:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLogoTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setResults" is-config="true" duration-ms="234" started-at="2018-02-16T14:02:35Z" finished-at="2018-02-16T14:02:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginLogoTest status=SUCCESS method=HomePageTest.verifyLoginLogoTest()[pri:4, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setUp" is-config="true" duration-ms="6989" started-at="2018-02-16T14:02:35Z" finished-at="2018-02-16T14:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactUsLogoTest()[pri:5, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="verifyContactUsLogoTest" duration-ms="78" started-at="2018-02-16T14:02:42Z" finished-at="2018-02-16T14:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsLogoTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setResults" is-config="true" duration-ms="375" started-at="2018-02-16T14:02:42Z" finished-at="2018-02-16T14:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactUsLogoTest status=SUCCESS method=HomePageTest.verifyContactUsLogoTest()[pri:5, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setUp" is-config="true" duration-ms="6896" started-at="2018-02-16T14:02:42Z" finished-at="2018-02-16T14:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAboutUsLogoTest()[pri:6, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="verifyAboutUsLogoTest" duration-ms="62" started-at="2018-02-16T14:02:49Z" finished-at="2018-02-16T14:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutUsLogoTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setResults" is-config="true" duration-ms="329" started-at="2018-02-16T14:02:49Z" finished-at="2018-02-16T14:02:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAboutUsLogoTest status=SUCCESS method=HomePageTest.verifyAboutUsLogoTest()[pri:6, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setUp" is-config="true" duration-ms="6564" started-at="2018-02-16T14:02:50Z" finished-at="2018-02-16T14:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickOnSignupLogoTest()[pri:7, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="ClickOnSignupLogoTest" duration-ms="2268" started-at="2018-02-16T14:02:56Z" finished-at="2018-02-16T14:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnSignupLogoTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setResults" is-config="true" duration-ms="282" started-at="2018-02-16T14:02:59Z" finished-at="2018-02-16T14:02:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnSignupLogoTest status=SUCCESS method=HomePageTest.ClickOnSignupLogoTest()[pri:7, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setUp" is-config="true" duration-ms="8067" started-at="2018-02-16T14:02:59Z" finished-at="2018-02-16T14:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickLoginBtnTest()[pri:8, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="ClickLoginBtnTest" duration-ms="5555" started-at="2018-02-16T14:03:07Z" finished-at="2018-02-16T14:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLoginBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:03:12Z" finished-at="2018-02-16T14:03:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickLoginBtnTest status=SUCCESS method=HomePageTest.ClickLoginBtnTest()[pri:8, instance:com.JusDone.qa.TestCases.HomePageTest@3d99d22e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+      </class> <!-- com.JusDone.qa.TestCases.HomePageTest -->
+    </test> <!-- HomepageTest -->
+    <test name="RegisterPageTest" duration-ms="115478" started-at="2018-02-16T20:03:13Z" finished-at="2018-02-16T20:05:08Z">
+      <class name="com.JusDone.qa.TestCases.RegisterPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setUp" is-config="true" duration-ms="10273" started-at="2018-02-16T14:03:13Z" finished-at="2018-02-16T14:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegisterNameTest()[pri:1, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="verifyRegisterNameTest" duration-ms="110" started-at="2018-02-16T14:03:23Z" finished-at="2018-02-16T14:03:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="305" started-at="2018-02-12T13:29:19Z" finished-at="2018-02-12T13:29:19Z">
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:03:23Z" finished-at="2018-02-16T14:03:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRegisterNameTest status=SUCCESS method=RegisterPageTest.verifyRegisterNameTest()[pri:1, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="setUp" is-config="true" duration-ms="12933" started-at="2018-02-12T13:29:19Z" finished-at="2018-02-12T13:29:32Z">
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setUp" is-config="true" duration-ms="10446" started-at="2018-02-16T14:03:23Z" finished-at="2018-02-16T14:03:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyExistingUserBtnTest()[pri:2, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="verifyExistingUserBtnTest" duration-ms="53" started-at="2018-02-12T13:29:32Z" finished-at="2018-02-12T13:29:32Z">
+        <test-method status="PASS" signature="verifyExistingUserBtnTest()[pri:2, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="verifyExistingUserBtnTest" duration-ms="63" started-at="2018-02-16T14:03:34Z" finished-at="2018-02-16T14:03:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyExistingUserBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="314" started-at="2018-02-12T13:29:32Z" finished-at="2018-02-12T13:29:33Z">
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setResults" is-config="true" duration-ms="234" started-at="2018-02-16T14:03:34Z" finished-at="2018-02-16T14:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyExistingUserBtnTest status=SUCCESS method=RegisterPageTest.verifyExistingUserBtnTest()[pri:2, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="setUp" is-config="true" duration-ms="13019" started-at="2018-02-12T13:29:33Z" finished-at="2018-02-12T13:29:46Z">
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setUp" is-config="true" duration-ms="10871" started-at="2018-02-16T14:03:35Z" finished-at="2018-02-16T14:03:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyExistingAcctErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="VerifyExistingAcctErrorMsgTest" duration-ms="2344" started-at="2018-02-12T13:29:46Z" data-provider="VerifyExistingAcctErrorMsg" finished-at="2018-02-12T13:29:49Z">
+        <test-method status="FAIL" signature="VerifyValidAcctNameMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="VerifyValidAcctNameMsgTest" duration-ms="22343" started-at="2018-02-16T14:03:46Z" data-provider="VerifyValidAcctNameMsg" finished-at="2018-02-16T14:04:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sv7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[siri@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div/div[1]/div/nav/div/p[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15744, moz:profile: C:\Users\venka\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 698ecb18-578a-40d3-8f6e-8da8de9b66fc
+*** Element info: {Using=xpath, value=/html/body/div/div[1]/div/nav/div/p[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div/div[1]/div/nav/div/p[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15744, moz:profile: C:\Users\venka\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 698ecb18-578a-40d3-8f6e-8da8de9b66fc
+*** Element info: {Using=xpath, value=/html/body/div/div[1]/div/nav/div/p[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+	at com.google.common.collect.Iterators$6.transform(Iterators.java:820)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Iterators.addAll(Iterators.java:373)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:165)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:150)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:534)
+	at com.JusDone.qa.Pages.RegisterPage.VerifyValidAcctNameMsg(RegisterPage.java:104)
+	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyValidAcctNameMsgTest(RegisterPageTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidAcctNameMsgTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setResults" is-config="true" duration-ms="343" started-at="2018-02-16T14:04:08Z" finished-at="2018-02-16T14:04:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyValidAcctNameMsgTest status=FAILURE method=RegisterPageTest.VerifyValidAcctNameMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setUp" is-config="true" duration-ms="10788" started-at="2018-02-16T14:04:08Z" finished-at="2018-02-16T14:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyExistingAcctErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="VerifyExistingAcctErrorMsgTest" duration-ms="2072" started-at="2018-02-16T14:04:19Z" data-provider="VerifyExistingAcctErrorMsg" finished-at="2018-02-16T14:04:21Z">
           <params>
             <param index="0">
               <value>
@@ -61,15 +541,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyExistingAcctErrorMsgTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="346" started-at="2018-02-12T13:29:49Z" finished-at="2018-02-12T13:29:49Z">
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:04:21Z" finished-at="2018-02-16T14:04:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyExistingAcctErrorMsgTest status=SUCCESS method=RegisterPageTest.VerifyExistingAcctErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="setUp" is-config="true" duration-ms="13167" started-at="2018-02-12T13:29:49Z" finished-at="2018-02-12T13:30:02Z">
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setUp" is-config="true" duration-ms="9188" started-at="2018-02-16T14:04:21Z" finished-at="2018-02-16T14:04:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyInvalidEmailErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="VerifyInvalidEmailErrorMsgTest" duration-ms="2694" started-at="2018-02-12T13:30:02Z" data-provider="VerifyInvalidEmailErrorMsg" finished-at="2018-02-12T13:30:05Z">
+        <test-method status="PASS" signature="VerifyInvalidEmailErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="VerifyInvalidEmailErrorMsgTest" duration-ms="2098" started-at="2018-02-16T14:04:31Z" data-provider="VerifyInvalidEmailErrorMsg" finished-at="2018-02-16T14:04:33Z">
           <params>
             <param index="0">
               <value>
@@ -95,15 +582,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyInvalidEmailErrorMsgTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="293" started-at="2018-02-12T13:30:05Z" finished-at="2018-02-12T13:30:05Z">
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:04:33Z" finished-at="2018-02-16T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyInvalidEmailErrorMsgTest status=SUCCESS method=RegisterPageTest.VerifyInvalidEmailErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="setUp" is-config="true" duration-ms="12752" started-at="2018-02-12T13:30:05Z" finished-at="2018-02-12T13:30:18Z">
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setUp" is-config="true" duration-ms="10743" started-at="2018-02-16T14:04:33Z" finished-at="2018-02-16T14:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyPwdMatchErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="VerifyPwdMatchErrorMsgTest" duration-ms="2596" started-at="2018-02-12T13:30:18Z" data-provider="VerifyPwdMatchErrorMsg" finished-at="2018-02-12T13:30:21Z">
+        <test-method status="PASS" signature="VerifyPwdMatchErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="VerifyPwdMatchErrorMsgTest" duration-ms="2096" started-at="2018-02-16T14:04:44Z" data-provider="VerifyPwdMatchErrorMsg" finished-at="2018-02-16T14:04:46Z">
           <params>
             <param index="0">
               <value>
@@ -129,15 +623,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyPwdMatchErrorMsgTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="334" started-at="2018-02-12T13:30:21Z" finished-at="2018-02-12T13:30:21Z">
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setResults" is-config="true" duration-ms="281" started-at="2018-02-16T14:04:46Z" finished-at="2018-02-16T14:04:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPwdMatchErrorMsgTest status=SUCCESS method=RegisterPageTest.VerifyPwdMatchErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="setUp" is-config="true" duration-ms="13512" started-at="2018-02-12T13:30:21Z" finished-at="2018-02-12T13:30:35Z">
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setUp" is-config="true" duration-ms="10174" started-at="2018-02-16T14:04:46Z" finished-at="2018-02-16T14:04:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyBlankErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="VerifyBlankErrorMsgTest" duration-ms="1225" started-at="2018-02-12T13:30:35Z" data-provider="VerifyBlankErrorMsg" finished-at="2018-02-12T13:30:36Z">
+        <test-method status="PASS" signature="VerifyBlankErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="VerifyBlankErrorMsgTest" duration-ms="1129" started-at="2018-02-16T14:04:56Z" data-provider="VerifyBlankErrorMsg" finished-at="2018-02-16T14:04:57Z">
           <params>
             <param index="0">
               <value>
@@ -163,23 +664,553 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBlankErrorMsgTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="265" started-at="2018-02-12T13:30:36Z" finished-at="2018-02-12T13:30:36Z">
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:04:57Z" finished-at="2018-02-16T14:04:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyBlankErrorMsgTest status=SUCCESS method=RegisterPageTest.VerifyBlankErrorMsgTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="setUp" is-config="true" duration-ms="13307" started-at="2018-02-12T13:30:36Z" finished-at="2018-02-12T13:30:49Z">
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setUp" is-config="true" duration-ms="9992" started-at="2018-02-16T14:04:58Z" finished-at="2018-02-16T14:05:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ClickSignInButtonTest()[pri:8, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="ClickSignInButtonTest" duration-ms="66" started-at="2018-02-12T13:30:49Z" finished-at="2018-02-12T13:30:49Z">
+        <test-method status="PASS" signature="ClickSignInButtonTest()[pri:8, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="ClickSignInButtonTest" duration-ms="47" started-at="2018-02-16T14:05:08Z" finished-at="2018-02-16T14:05:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickSignInButtonTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="353" started-at="2018-02-12T13:30:49Z" finished-at="2018-02-12T13:30:50Z">
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b]" name="setResults" is-config="true" duration-ms="437" started-at="2018-02-16T14:05:08Z" finished-at="2018-02-16T14:05:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickSignInButtonTest status=SUCCESS method=RegisterPageTest.ClickSignInButtonTest()[pri:8, instance:com.JusDone.qa.TestCases.RegisterPageTest@3224f60b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- setResults -->
       </class> <!-- com.JusDone.qa.TestCases.RegisterPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- RegisterPageTest -->
+    <test name="DashBoardPageTest" duration-ms="440676" started-at="2018-02-16T20:05:08Z" finished-at="2018-02-16T20:12:29Z">
+      <class name="com.JusDone.qa.TestCases.DashBoardPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="22145" started-at="2018-02-16T14:05:08Z" finished-at="2018-02-16T14:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyJusDoneImageTest()[pri:1, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyJusDoneImageTest" duration-ms="6039" started-at="2018-02-16T14:05:30Z" finished-at="2018-02-16T14:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJusDoneImageTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="321" started-at="2018-02-16T14:05:36Z" finished-at="2018-02-16T14:05:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyJusDoneImageTest status=SUCCESS method=DashBoardPageTest.verifyJusDoneImageTest()[pri:1, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="20483" started-at="2018-02-16T14:05:37Z" finished-at="2018-02-16T14:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyUserNameTest" duration-ms="15" started-at="2018-02-16T14:05:57Z" finished-at="2018-02-16T14:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:05:57Z" finished-at="2018-02-16T14:05:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserNameTest status=SUCCESS method=DashBoardPageTest.verifyUserNameTest()[pri:2, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="21244" started-at="2018-02-16T14:05:57Z" finished-at="2018-02-16T14:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTeamLabelTest()[pri:3, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyTeamLabelTest" duration-ms="32" started-at="2018-02-16T14:06:19Z" finished-at="2018-02-16T14:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeamLabelTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="281" started-at="2018-02-16T14:06:19Z" finished-at="2018-02-16T14:06:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTeamLabelTest status=SUCCESS method=DashBoardPageTest.verifyTeamLabelTest()[pri:3, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="20472" started-at="2018-02-16T14:06:19Z" finished-at="2018-02-16T14:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchBoxTest()[pri:4, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifySearchBoxTest" duration-ms="32" started-at="2018-02-16T14:06:40Z" finished-at="2018-02-16T14:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="265" started-at="2018-02-16T14:06:40Z" finished-at="2018-02-16T14:06:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchBoxTest status=SUCCESS method=DashBoardPageTest.verifySearchBoxTest()[pri:4, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="19752" started-at="2018-02-16T14:06:40Z" finished-at="2018-02-16T14:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTeamNameLabelTest()[pri:5, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyTeamNameLabelTest" duration-ms="62" started-at="2018-02-16T14:07:00Z" finished-at="2018-02-16T14:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeamNameLabelTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="375" started-at="2018-02-16T14:07:00Z" finished-at="2018-02-16T14:07:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTeamNameLabelTest status=SUCCESS method=DashBoardPageTest.verifyTeamNameLabelTest()[pri:5, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="20581" started-at="2018-02-16T14:07:00Z" finished-at="2018-02-16T14:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyDashBoardBtnTest()[pri:6, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyDashBoardBtnTest" duration-ms="15" started-at="2018-02-16T14:07:21Z" finished-at="2018-02-16T14:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoardBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="270" started-at="2018-02-16T14:07:21Z" finished-at="2018-02-16T14:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDashBoardBtnTest status=SUCCESS method=DashBoardPageTest.verifyDashBoardBtnTest()[pri:6, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="22159" started-at="2018-02-16T14:07:21Z" finished-at="2018-02-16T14:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTeamsBtnTest()[pri:7, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyTeamsBtnTest" duration-ms="15" started-at="2018-02-16T14:07:43Z" finished-at="2018-02-16T14:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeamsBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="266" started-at="2018-02-16T14:07:43Z" finished-at="2018-02-16T14:07:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTeamsBtnTest status=SUCCESS method=DashBoardPageTest.verifyTeamsBtnTest()[pri:7, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="25540" started-at="2018-02-16T14:07:43Z" finished-at="2018-02-16T14:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTaskBtnTest()[pri:8, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyTaskBtnTest" duration-ms="16" started-at="2018-02-16T14:08:09Z" finished-at="2018-02-16T14:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="422" started-at="2018-02-16T14:08:09Z" finished-at="2018-02-16T14:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTaskBtnTest status=SUCCESS method=DashBoardPageTest.verifyTaskBtnTest()[pri:8, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="25437" started-at="2018-02-16T14:08:09Z" finished-at="2018-02-16T14:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyInvitesBtnTest()[pri:9, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyInvitesBtnTest" duration-ms="16" started-at="2018-02-16T14:08:35Z" finished-at="2018-02-16T14:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvitesBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="328" started-at="2018-02-16T14:08:35Z" finished-at="2018-02-16T14:08:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvitesBtnTest status=SUCCESS method=DashBoardPageTest.verifyInvitesBtnTest()[pri:9, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="23676" started-at="2018-02-16T14:08:35Z" finished-at="2018-02-16T14:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySettingsBtnTest()[pri:10, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifySettingsBtnTest" duration-ms="32" started-at="2018-02-16T14:08:59Z" finished-at="2018-02-16T14:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySettingsBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="375" started-at="2018-02-16T14:08:59Z" finished-at="2018-02-16T14:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySettingsBtnTest status=SUCCESS method=DashBoardPageTest.verifySettingsBtnTest()[pri:10, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="23255" started-at="2018-02-16T14:08:59Z" finished-at="2018-02-16T14:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMenuBarTest()[pri:11, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyMenuBarTest" duration-ms="32" started-at="2018-02-16T14:09:22Z" finished-at="2018-02-16T14:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuBarTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="281" started-at="2018-02-16T14:09:22Z" finished-at="2018-02-16T14:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMenuBarTest status=SUCCESS method=DashBoardPageTest.verifyMenuBarTest()[pri:11, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="22272" started-at="2018-02-16T14:09:23Z" finished-at="2018-02-16T14:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewTeamBtnTest()[pri:12, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyCreateNewTeamBtnTest" duration-ms="32" started-at="2018-02-16T14:09:45Z" finished-at="2018-02-16T14:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewTeamBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:09:45Z" finished-at="2018-02-16T14:09:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateNewTeamBtnTest status=SUCCESS method=DashBoardPageTest.verifyCreateNewTeamBtnTest()[pri:12, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="19646" started-at="2018-02-16T14:09:45Z" finished-at="2018-02-16T14:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBellBtnTest()[pri:13, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyBellBtnTest" duration-ms="16" started-at="2018-02-16T14:10:05Z" finished-at="2018-02-16T14:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBellBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="265" started-at="2018-02-16T14:10:05Z" finished-at="2018-02-16T14:10:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBellBtnTest status=SUCCESS method=DashBoardPageTest.verifyBellBtnTest()[pri:13, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="20757" started-at="2018-02-16T14:10:05Z" finished-at="2018-02-16T14:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogOutBtnTest()[pri:14, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyLogOutBtnTest" duration-ms="15" started-at="2018-02-16T14:10:26Z" finished-at="2018-02-16T14:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOutBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="313" started-at="2018-02-16T14:10:26Z" finished-at="2018-02-16T14:10:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogOutBtnTest status=SUCCESS method=DashBoardPageTest.verifyLogOutBtnTest()[pri:14, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="21462" started-at="2018-02-16T14:10:26Z" finished-at="2018-02-16T14:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewTaskLinkTest()[pri:15, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="verifyCreateNewTaskLinkTest" duration-ms="15" started-at="2018-02-16T14:10:48Z" finished-at="2018-02-16T14:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewTaskLinkTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="282" started-at="2018-02-16T14:10:48Z" finished-at="2018-02-16T14:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateNewTaskLinkTest status=SUCCESS method=DashBoardPageTest.verifyCreateNewTaskLinkTest()[pri:15, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="19300" started-at="2018-02-16T14:10:48Z" finished-at="2018-02-16T14:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CreateTeamBtnTest()[pri:16, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="CreateTeamBtnTest" duration-ms="7447" started-at="2018-02-16T14:11:07Z" finished-at="2018-02-16T14:11:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTeamBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="343" started-at="2018-02-16T14:11:15Z" finished-at="2018-02-16T14:11:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateTeamBtnTest status=SUCCESS method=DashBoardPageTest.CreateTeamBtnTest()[pri:16, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="21229" started-at="2018-02-16T14:11:15Z" finished-at="2018-02-16T14:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="ClickCreateNewTaskLinkTest()[pri:17, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="ClickCreateNewTaskLinkTest" duration-ms="15" started-at="2018-02-16T14:11:36Z" finished-at="2018-02-16T14:11:36Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13104, moz:profile: C:\Users\venka\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ad227215-401d-4247-babd-ee07e24b2dbc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13104, moz:profile: C:\Users\venka\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ad227215-401d-4247-babd-ee07e24b2dbc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.JusDone.qa.Pages.DashBoardPage.ClickCreateNewTaskLink(DashBoardPage.java:173)
+	at com.JusDone.qa.TestCases.DashBoardPageTest.ClickCreateNewTaskLinkTest(DashBoardPageTest.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCreateNewTaskLinkTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="407" started-at="2018-02-16T14:11:36Z" finished-at="2018-02-16T14:11:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickCreateNewTaskLinkTest status=FAILURE method=DashBoardPageTest.ClickCreateNewTaskLinkTest()[pri:17, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="21964" started-at="2018-02-16T14:11:37Z" finished-at="2018-02-16T14:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickTaskBtnTest()[pri:18, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="ClickTaskBtnTest" duration-ms="6404" started-at="2018-02-16T14:11:59Z" finished-at="2018-02-16T14:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickTaskBtnTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="265" started-at="2018-02-16T14:12:05Z" finished-at="2018-02-16T14:12:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickTaskBtnTest status=SUCCESS method=DashBoardPageTest.ClickTaskBtnTest()[pri:18, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setUp" is-config="true" duration-ms="22366" started-at="2018-02-16T14:12:05Z" finished-at="2018-02-16T14:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickLogOutBtn()[pri:19, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="ClickLogOutBtn" duration-ms="816" started-at="2018-02-16T14:12:28Z" finished-at="2018-02-16T14:12:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLogOutBtn -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528]" name="setResults" is-config="true" duration-ms="295" started-at="2018-02-16T14:12:29Z" finished-at="2018-02-16T14:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickLogOutBtn status=SUCCESS method=DashBoardPageTest.ClickLogOutBtn()[pri:19, instance:com.JusDone.qa.TestCases.DashBoardPageTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+      </class> <!-- com.JusDone.qa.TestCases.DashBoardPageTest -->
+    </test> <!-- DashBoardPageTest -->
+    <test name="TaskPageTest" duration-ms="116120" started-at="2018-02-16T20:12:29Z" finished-at="2018-02-16T20:14:25Z">
+      <class name="com.JusDone.qa.TestCases.TaskPageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="setExtent" is-config="true" duration-ms="78" started-at="2018-02-16T13:59:58Z" finished-at="2018-02-16T13:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="setUp" is-config="true" duration-ms="26109" started-at="2018-02-16T14:12:29Z" finished-at="2018-02-16T14:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewTaskLinkTest()[pri:1, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="verifyCreateNewTaskLinkTest" duration-ms="3053" started-at="2018-02-16T14:12:55Z" finished-at="2018-02-16T14:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewTaskLinkTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="setResults" is-config="true" duration-ms="313" started-at="2018-02-16T14:12:58Z" finished-at="2018-02-16T14:12:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateNewTaskLinkTest status=SUCCESS method=TaskPageTest.verifyCreateNewTaskLinkTest()[pri:1, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="setUp" is-config="true" duration-ms="25858" started-at="2018-02-16T14:12:58Z" finished-at="2018-02-16T14:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMembersLinkTest()[pri:2, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="verifyMembersLinkTest" duration-ms="46" started-at="2018-02-16T14:13:24Z" finished-at="2018-02-16T14:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMembersLinkTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="setResults" is-config="true" duration-ms="282" started-at="2018-02-16T14:13:24Z" finished-at="2018-02-16T14:13:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMembersLinkTest status=SUCCESS method=TaskPageTest.verifyMembersLinkTest()[pri:2, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="setUp" is-config="true" duration-ms="29620" started-at="2018-02-16T14:13:25Z" finished-at="2018-02-16T14:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySettingsLinkTest()[pri:3, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="verifySettingsLinkTest" duration-ms="31" started-at="2018-02-16T14:13:54Z" finished-at="2018-02-16T14:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySettingsLinkTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="setResults" is-config="true" duration-ms="266" started-at="2018-02-16T14:13:54Z" finished-at="2018-02-16T14:13:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySettingsLinkTest status=SUCCESS method=TaskPageTest.verifySettingsLinkTest()[pri:3, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="setUp" is-config="true" duration-ms="25865" started-at="2018-02-16T14:13:54Z" finished-at="2018-02-16T14:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickCreateNewTaskLinkTest()[pri:4, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="ClickCreateNewTaskLinkTest" duration-ms="4427" started-at="2018-02-16T14:14:20Z" finished-at="2018-02-16T14:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCreateNewTaskLinkTest -->
+        <test-method status="PASS" signature="setResults(org.testng.ITestResult)[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="setResults" is-config="true" duration-ms="250" started-at="2018-02-16T14:14:25Z" finished-at="2018-02-16T14:14:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickCreateNewTaskLinkTest status=SUCCESS method=TaskPageTest.ClickCreateNewTaskLinkTest()[pri:4, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResults -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.JusDone.qa.TestCases.TaskPageTest@7d0587f1]" name="endReport" is-config="true" duration-ms="219" started-at="2018-02-16T14:14:25Z" finished-at="2018-02-16T14:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.JusDone.qa.TestCases.TaskPageTest -->
+    </test> <!-- TaskPageTest -->
+  </suite> <!-- JusDone Application Test Automation Test Suite -->
 </testng-results>

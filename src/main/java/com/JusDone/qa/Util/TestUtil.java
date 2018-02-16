@@ -29,6 +29,7 @@ public class TestUtil extends TestBase {
 	public static Workbook book;
 	public static Sheet sheet;
 
+	// GetTestData Method will get the Data from Excel Sheet
 	public static Object[][] getTestData(String sheetName) {
 		FileInputStream file = null;
 		try {
@@ -55,14 +56,14 @@ public class TestUtil extends TestBase {
 		return data;
 	}
 
+	// ScreenShot Method
 	public void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
-
 		FileUtils.copyFile(scrFile, new File(currentDir + "/ScreenShots/" + System.currentTimeMillis() + ".png"));
-
 	}
 
+	// Explicit Wait Method
 	public void ExplicitWait() {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		List<WebElement> element = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.tagName("label")));

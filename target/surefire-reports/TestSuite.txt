@@ -1,4 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 918.528 s - in TestSuite
+Tests run: 50, Failures: 4, Errors: 0, Skipped: 5, Time elapsed: 967.499 s <<< FAILURE! - in TestSuite
+verifyLRememberMeTest(com.JusDone.qa.TestCases.LoginPageTest)  Time elapsed: 0.079 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.JusDone.qa.TestCases.LoginPageTest.verifyLRememberMeTest(LoginPageTest.java:62)
+
+VerifyValidAcctNameMsgTest(com.JusDone.qa.TestCases.RegisterPageTest)  Time elapsed: 23.134 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: /html/body/div/div[1]/div/nav/div/p[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 31672, moz:profile: C:\Users\venka\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3ff07c7a-ab37-4634-826d-871e445d6fbd
+*** Element info: {Using=xpath, value=/html/body/div/div[1]/div/nav/div/p[1]}
+	at com.JusDone.qa.TestCases.RegisterPageTest.VerifyValidAcctNameMsgTest(RegisterPageTest.java:73)
+
+setUp(com.JusDone.qa.TestCases.RegisterPageTest)  Time elapsed: 11.676 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20876, moz:profile: C:\Users\venka\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c0ff8e6e-a212-4920-9b51-9c55f02b31ab
+	at com.JusDone.qa.TestCases.RegisterPageTest.setUp(RegisterPageTest.java:45)
+
+ClickCreateNewTaskLinkTest(com.JusDone.qa.TestCases.DashBoardPageTest)  Time elapsed: 0.032 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'NALLANS-NEWPC', ip: '192.168.186.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14472, moz:profile: C:\Users\venka\AppData\Loca..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ae7bbef1-9c64-42c4-b5e6-e387daa5a745
+	at com.JusDone.qa.TestCases.DashBoardPageTest.ClickCreateNewTaskLinkTest(DashBoardPageTest.java:184)
+

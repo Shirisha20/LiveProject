@@ -3,7 +3,6 @@ package com.JusDone.qa.TestCases;
 import java.io.IOException;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -48,12 +47,16 @@ public class RegisterPageTest extends TestBase {
 
 	@Test(priority = 1)
 	public void verifyRegisterNameTest() {
+
+		extentTest = extentReports.startTest("verifyRegisterNameTest");
 		Assert.assertTrue(registerPage.verifyRegisterName());
 
 	}
 
 	@Test(priority = 2)
 	public void verifyExistingUserBtnTest() {
+
+		extentTest = extentReports.startTest("verifyExistingUserBtnTest");
 		Assert.assertTrue(registerPage.verifySignInBtn());
 	}
 
@@ -63,8 +66,10 @@ public class RegisterPageTest extends TestBase {
 		return data;
 	}
 
-	@Test(priority = 3, dataProvider = "VerifyValidAcctNameMsg", enabled = false)
+	@Test(priority = 3, dataProvider = "VerifyValidAcctNameMsg", enabled = true)
 	public void VerifyValidAcctNameMsgTest(String Name, String Email, String Pwd, String ConfirmPwd) {
+
+		extentTest = extentReports.startTest("VerifyValidAcctNameMsgTest");
 		registerPage.VerifyValidAcctNameMsg(Name, Email, Pwd, ConfirmPwd);
 		try {
 			testUtil.takeScreenshotAtEndOfTest();
@@ -83,6 +88,8 @@ public class RegisterPageTest extends TestBase {
 	@Test(priority = 4, dataProvider = "VerifyExistingAcctErrorMsg")
 	public void VerifyExistingAcctErrorMsgTest(String Name, String Email, String Pwd, String ConfirmPwd)
 	        throws IOException {
+
+		extentTest = extentReports.startTest("VerifyExistingAcctErrorMsgTest");
 		registerPage.VerifyExistingAcctErrorMsg(Name, Email, Pwd, ConfirmPwd);
 		testUtil.takeScreenshotAtEndOfTest();
 	}
@@ -95,6 +102,8 @@ public class RegisterPageTest extends TestBase {
 
 	@Test(priority = 5, dataProvider = "VerifyInvalidEmailErrorMsg")
 	public void VerifyInvalidEmailErrorMsgTest(String Name, String Email, String Pwd, String ConfirmPwd) {
+
+		extentTest = extentReports.startTest("VerifyInvalidEmailErrorMsgTest");
 		registerPage.VerifyInvalidEmailErrorMsg(Name, Email, Pwd, ConfirmPwd);
 		try {
 			testUtil.takeScreenshotAtEndOfTest();
@@ -111,12 +120,15 @@ public class RegisterPageTest extends TestBase {
 
 	@Test(priority = 6, dataProvider = "VerifyPwdMatchErrorMsg")
 	public void VerifyPwdMatchErrorMsgTest(String Name, String Email, String Pwd, String ConfirmPwd) {
+
+		extentTest = extentReports.startTest("VerifyPwdMatchErrorMsgTest");
 		registerPage.VerifyPwdMatchErrorMsg(Name, Email, Pwd, ConfirmPwd);
 		try {
 			testUtil.takeScreenshotAtEndOfTest();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+
 	}
 
 	@DataProvider
@@ -127,24 +139,18 @@ public class RegisterPageTest extends TestBase {
 
 	@Test(priority = 7, dataProvider = "VerifyBlankErrorMsg")
 	public void VerifyBlankErrorMsgTest(String Name, String Email, String Pwd, String ConfirmPwd) {
+
+		extentTest = extentReports.startTest("VerifyBlankErrorMsgTest");
 		registerPage.VerifyBlankErrorMsg(Name, Email, Pwd, ConfirmPwd);
-		try {
-			testUtil.takeScreenshotAtEndOfTest();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+
 	}
 
 	// Clicking on SignIn Button and Returning to LoginPage
 	@Test(priority = 8)
 	public void ClickSignInButtonTest() {
-		loginPage = registerPage.ClickSignInButton();
-	}
 
-	// Close the Browser
-	@AfterMethod
-	public void tearDown() {
-		driver.quit();
+		extentTest = extentReports.startTest("ClickSignInButtonTest");
+		loginPage = registerPage.ClickSignInButton();
 	}
 
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [JusDone Application Test Automation Test Suite]">
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="com.JusDone.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="verifyLRememberMeTest"/>
+          <include name="endReport"/>
+          <include name="setResults"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test name="RegisterPageTest(failed)">
+    <classes>
+      <class name="com.JusDone.qa.TestCases.RegisterPageTest">
+        <methods>
+          <include name="VerifyValidAcctNameMsgTest" invocation-numbers="0"/>
+          <include name="VerifyBlankErrorMsgTest"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="ClickSignInButtonTest"/>
+          <include name="VerifyPwdMatchErrorMsgTest"/>
+          <include name="setResults"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.RegisterPageTest -->
+    </classes>
+  </test> <!-- RegisterPageTest(failed) -->
+  <test name="DashBoardPageTest(failed)">
+    <classes>
+      <class name="com.JusDone.qa.TestCases.DashBoardPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="setResults"/>
+          <include name="setExtent"/>
+          <include name="ClickCreateNewTaskLinkTest"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.DashBoardPageTest -->
+    </classes>
+  </test> <!-- DashBoardPageTest(failed) -->
+</suite> <!-- Failed suite [JusDone Application Test Automation Test Suite] -->

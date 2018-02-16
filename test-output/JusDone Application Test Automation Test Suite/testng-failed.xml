@@ -1,44 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [JusDone Application Test Automation Test Suite]">
-  <listeners>
-    <listener class-name="com.qa.ExtentReportListener.ExtentReportListenerNG"/>
-  </listeners>
-  <test name="MultipleTests using Selenium Grid with Chrome Browser(failed)">
-    <parameter name="browserName" value="chrome"/>
+  <test name="LoginTest(failed)">
     <classes>
       <class name="com.JusDone.qa.TestCases.LoginPageTest">
         <methods>
-          <include name="InvalidLoginTest"/>
-          <include name="verifyLCreateAcctBtnTest"/>
-          <include name="verifyLForgotPwdTest"/>
-          <include name="verifyLoginBtnTest"/>
-          <include name="BlankInputLoginTest"/>
-          <include name="verifyLoginNameTest"/>
+          <include name="verifyLRememberMeTest"/>
+          <include name="endReport"/>
+          <include name="setResults"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="ValidLoginTest"/>
+          <include name="setExtent"/>
         </methods>
       </class> <!-- com.JusDone.qa.TestCases.LoginPageTest -->
     </classes>
-  </test> <!-- MultipleTests using Selenium Grid with Chrome Browser(failed) -->
-  <test name="Hi(failed)">
-    <parameter name="browserName" value="chrome"/>
+  </test> <!-- LoginTest(failed) -->
+  <test name="RegisterPageTest(failed)">
     <classes>
-      <class name="com.JusDone.qa.TestCases.HomePageTest">
+      <class name="com.JusDone.qa.TestCases.RegisterPageTest">
         <methods>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="ClickLoginBtnTest"/>
-          <include name="verifyJusDoneLogoTest"/>
-          <include name="verifySignUpLogoTest"/>
-          <include name="verifyAboutUsLogoTest"/>
-          <include name="tearDown"/>
-          <include name="verifyContactUsLogoTest"/>
-          <include name="verifyLoginLogoTest"/>
-          <include name="ClickOnSignupLogoTest"/>
+          <include name="VerifyValidAcctNameMsgTest" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="setResults"/>
+          <include name="setExtent"/>
         </methods>
-      </class> <!-- com.JusDone.qa.TestCases.HomePageTest -->
+      </class> <!-- com.JusDone.qa.TestCases.RegisterPageTest -->
     </classes>
-  </test> <!-- Hi(failed) -->
+  </test> <!-- RegisterPageTest(failed) -->
+  <test name="DashBoardPageTest(failed)">
+    <classes>
+      <class name="com.JusDone.qa.TestCases.DashBoardPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="setResults"/>
+          <include name="setExtent"/>
+          <include name="ClickCreateNewTaskLinkTest"/>
+        </methods>
+      </class> <!-- com.JusDone.qa.TestCases.DashBoardPageTest -->
+    </classes>
+  </test> <!-- DashBoardPageTest(failed) -->
 </suite> <!-- Failed suite [JusDone Application Test Automation Test Suite] -->

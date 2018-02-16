@@ -1,10 +1,7 @@
 package com.JusDone.qa.TestCases;
 
-import java.io.IOException;
-
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -48,6 +45,7 @@ public class HomePageTest extends TestBase {
 		log.info("****************************** starting test case *****************************************");
 		log.info("****************************** JusDoneTitleTest *****************************************");
 
+		extentTest = extentReports.startTest("verifyHomePageTitleTest");
 		String homePageTitle = homePage.verifyHomePageTitle();
 		Assert.assertEquals(homePageTitle, "jusDone", "Home page title  matched");
 
@@ -61,6 +59,7 @@ public class HomePageTest extends TestBase {
 		log.info("****************************** starting test case *****************************************");
 		log.info("****************************** JusDoneLogoTest *****************************************");
 
+		extentTest = extentReports.startTest("verifyJusDoneLogoTest");
 		Assert.assertTrue(homePage.verifyJusDoneLogo());
 
 		log.info("****************************** starting test case *****************************************");
@@ -72,6 +71,7 @@ public class HomePageTest extends TestBase {
 	public void verifySignUpLogoTest() {
 		log.info("****************************** SignUpLogoTest *****************************************");
 
+		extentTest = extentReports.startTest("verifySignUpLogoTest");
 		Assert.assertTrue(homePage.verifySignUpLogo());
 	}
 
@@ -79,6 +79,7 @@ public class HomePageTest extends TestBase {
 	public void verifyLoginLogoTest() {
 		log.info("****************************** LoginLogoTest *****************************************");
 
+		extentTest = extentReports.startTest("verifyLoginLogoTest");
 		Assert.assertTrue(homePage.verifyLoginLogo());
 	}
 
@@ -86,6 +87,7 @@ public class HomePageTest extends TestBase {
 	public void verifyContactUsLogoTest() {
 		log.info("****************************** ContactUsLogoTest *****************************************");
 
+		extentTest = extentReports.startTest("verifyContactUsLogoTest");
 		Assert.assertTrue(homePage.verifyContactUsLogo());
 	}
 
@@ -93,6 +95,7 @@ public class HomePageTest extends TestBase {
 	public void verifyAboutUsLogoTest() {
 		log.info("****************************** AboutUsLogoTest *****************************************");
 
+		extentTest = extentReports.startTest("verifyAboutUsLogoTest");
 		Assert.assertTrue(homePage.verifyAboutUsLogo());
 	}
 
@@ -100,11 +103,7 @@ public class HomePageTest extends TestBase {
 	public void ClickOnSignupLogoTest() {
 		log.info("****************************** ClickOnSignupLogoTest *****************************************");
 
-		try {
-			testUtil.takeScreenshotAtEndOfTest();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		extentTest = extentReports.startTest("ClickOnSignupLogoTest");
 		registrationPage = homePage.clickOnSignUpLogo();
 	}
 
@@ -113,19 +112,8 @@ public class HomePageTest extends TestBase {
 		log.info("****************************** ClickLoginButton *****************************************");
 
 		driver.navigate().back();
-		try {
-			testUtil.takeScreenshotAtEndOfTest();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		extentTest = extentReports.startTest("ClickLoginBtnTest");
 		loginPage = homePage.ClickLoginBtn();
-	}
-
-	@AfterMethod
-	public void tearDown() {
-		log.info("****************************** Browser is closed *****************************************");
-
-		driver.quit();
 	}
 
 }
